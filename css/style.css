@@ -417,7 +417,7 @@ div .button {
     margin: 0 6.25rem;
   }
   .logo-svg {
-    width: 7.8rem;
+    width: 9rem;
   }
   .header-nav {
     display: none;
@@ -443,6 +443,7 @@ div .button {
     height: 1px;
     background-color: #fff;
     width: 100%;
+    transition: transform 0.2s;
   }
   .mobile-menu-line:nth-child(2) {
     width: 80%;
@@ -490,8 +491,8 @@ div .button {
   .mobile-submenu {
     list-style-type: none;
     padding: 0;
-    padding-left: 1rem;
-    margin-top: 1rem;
+    padding-left: 2.1875rem;
+    margin-top: 0.9375rem;
   }
   .mobile-submenu-link {
     text-decoration: none;
@@ -499,6 +500,10 @@ div .button {
     font-size: 14px;
     line-height: 160%;
     color: #828a99;
+  }
+  .mobile-submenu-item {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
   }
   .mobile-phone {
     display: block;
@@ -525,5 +530,24 @@ div .button {
     font-size: 14px;
     line-height: 160%;
     color: #292d33;
+  }
+  .close-menu .mobile-menu-line:nth-child(2) {
+    display: none;
+  }
+  .close-menu .mobile-menu-line:nth-child(1) {
+    transform: rotate(45deg) translateY(11px);
+  }
+  .close-menu .mobile-menu-line:nth-child(3) {
+    transform: rotate(-45deg) translateY(-10px);
+  }
+  .icon-mobile {
+    display: flex;
+    align-items: center;
+    gap: 0.9375rem;
+  }
+  .mobile-info-email {
+    display: flex;
+    gap: 0.9375rem;
+    margin-bottom: 15px;
   }
 }
