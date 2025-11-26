@@ -37,3 +37,59 @@ mMenuToggle.addEventListener("click", (event) => {
   event.preventDefault();
   menu.classList.contains("isOpen") ? closeMenu() : openMenu();
 });
+
+const swiper = new Swiper(".swiper.swiper-features", {
+  speed: 400,
+  autoHeight: true,
+  slidesPerView: 1,
+  navigation: {
+    nextEl: ".slider-button-next",
+    prevEl: ".slider-button-prev",
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    576: {
+      slidesPerView: 2,
+    },
+    // when window width is >= 480px
+    768: {
+      slidesPerView: 3,
+    },
+    // when window width is >= 640px
+    1024: {
+      slidesPerView: 4,
+    },
+    // when window width is >= 1200px
+    1200: {
+      slidesPerView: 5,
+    },
+  },
+});
+
+const swiperSteps = new Swiper(".swiper.swiper-steps", {
+  speed: 400,
+  autoHeight: true,
+  slidesPerView: 1,
+  navigation: {
+    nextEl: ".slider-button-item-next",
+    prevEl: ".slider-button-item-prev",
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    768: {
+      slidesPerView: 2,
+    },
+    // when window width is >= 480px
+    992: {
+      slidesPerView: 3,
+    },
+    // when window width is >= 640px
+    1200: {
+      slidesPerView: 4,
+    },
+    // // when window width is >= 1200px
+    // 1200: {
+    //   slidesPerView: 5,
+    // },
+  },
+});
