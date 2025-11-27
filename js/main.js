@@ -8,14 +8,12 @@ const lightModeOn = (event) => {
   navbar.classList.add("navbar-light");
   logo.style.display = "block";
   logoLight.style.display = "none";
-  // logo.href.baseVal = "img/sprite.svg#logo-dark";
 };
 
 const lightModeOff = (event) => {
   navbar.classList.remove("navbar-light");
   logo.style.display = "none";
   logoLight.style.display = "block";
-  // logo.href.baseVal = "img/sprite.svg#logo-light";
 };
 
 const openMenu = (event) => {
@@ -45,7 +43,6 @@ mMenuToggle.addEventListener("click", (event) => {
 
 const swiper = new Swiper(".swiper.swiper-features", {
   speed: 400,
-  autoHeight: true,
   slidesPerView: 1,
   navigation: {
     nextEl: ".slider-button-next",
