@@ -44,6 +44,9 @@ h1 {
 .phone-icon {
   fill: #5c8ee6;
 }
+.logo {
+  display: none;
+}
 .logo-svg {
   width: 9rem;
   height: 2.75rem;
@@ -439,6 +442,7 @@ div .button {
     padding-right: 2rem;
     font-size: 0.75rem;
   }
+
   .logo-svg {
     width: 8rem;
   }
