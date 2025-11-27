@@ -71,12 +71,15 @@ const swiper = new Swiper(".swiper.swiper-features", {
 const swiperSteps = new Swiper(".swiper.swiper-steps", {
   speed: 400,
   autoHeight: true,
-  slidesPerView: 1,
+  slidesPerView: 2,
   navigation: {
     nextEl: ".slider-button-item-next",
     prevEl: ".slider-button-item-prev",
   },
   breakpoints: {
+    350: {
+      slidesPerView: 1,
+    },
     // when window width is >= 320px
     768: {
       slidesPerView: 2,
