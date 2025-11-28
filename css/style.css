@@ -83,25 +83,52 @@ h1 {
   height: 100%;
 }
 .header-nav {
-  flex-basis: 100%;
   display: flex;
+  align-items: center;
+  height: 100%;
+  flex-basis: 100%;
   list-style: none;
   padding: 0;
   padding-left: 3.125rem;
   margin: 0;
 }
+.header-nav-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
 .header-nav-item:not(:last-child) {
   margin-right: 3.3125rem;
 }
 .header-nav-link {
+  display: flex;
+  height: 100%;
+  align-items: center;
   text-decoration: none;
   font-size: 1rem;
   font-weight: 400;
   line-height: 160%;
   color: inherit;
+  position: relative;
   letter-spacing: 0.01px;
   padding-top: 0.3125rem;
   padding-left: -0.125rem;
+}
+.header-nav-link:after {
+  content: "";
+  width: 0px;
+  height: 2px;
+  position: absolute;
+  bottom: -1px;
+  background-color: #5c8ee5;
+  transition: width 0.2s;
+  right: 0;
+  left: auto;
+}
+.header-nav-link:hover::after {
+  width: 100%;
+  right: auto;
+  left: 0;
 }
 .header-phone {
   flex-shrink: 0;
@@ -136,7 +163,8 @@ div .button {
 .navbar-button {
   flex-shrink: 0;
   height: 100%;
-  padding-left: 3.1875rem;
+  padding-left: 1.5938rem;
+  padding-right: 1.5938rem;
   letter-spacing: 0.0125rem;
   margin-right: -0.1875rem;
   align-items: center;
@@ -268,6 +296,7 @@ div .button {
 }
 .steps-item {
   width: 30%;
+  min-height: 16.6875rem;
   list-style-type: none;
   padding-right: 1.875rem;
 }
@@ -319,12 +348,59 @@ div .button {
   letter-spacing: 0.1px;
   color: #5c8ee6;
 }
-.steps-link::before {
+.steps-link:before {
   content: "";
   height: 1px;
   background: #5c8ee6;
   width: 2.5rem;
   margin-right: 1.25rem;
+  transition: width 0.2s;
+}
+.steps-link:hover:before {
+  width: 60px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  text-decoration: none;
+  flex-basis: 33%;
+  border: 1px solid #ebebf0;
+  position: relative;
+  transition: border 0.2s;
+}
+.card:hover .card-title {
+  color: #5c8ee5;
+}
+.card:hover {
+  border-color: #5c8ee5;
+}
+.card-content {
+  padding: 2.5rem 3.125rem;
+}
+.card-title {
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 140%;
+  color: #292d33;
+  margin-top: 0;
+  margin-bottom: 0.625rem;
+  transition: color 0.2s;
+}
+.card-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828a99;
+  margin-bottom: 24.625rem;
+}
+.card-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  width: 90%;
 }
 
 @media (max-width: 1815px) {
@@ -332,6 +408,7 @@ div .button {
     padding: 1.9rem 0.9rem;
   }
 }
+
 @media (max-width: 1800px) {
   .header-features-item {
     font-size: 0.8rem;
@@ -431,6 +508,10 @@ div .button {
   html {
     font-size: 12.5px;
   }
+  .container {
+    max-width: 75rem;
+    margin: 0 9rem;
+  }
   .navbar {
     height: 5rem;
   }
@@ -439,7 +520,6 @@ div .button {
     padding-right: 2rem;
     font-size: 0.75rem;
   }
-
   .logo-svg {
     width: 8rem;
   }
@@ -449,12 +529,11 @@ div .button {
   .slider-buttons {
     display: flex;
   }
-  .container {
-    max-width: 75rem;
-    margin: 0 9rem;
-  }
   .slider-item-buttons {
     display: flex;
+  }
+  .card {
+    flex-basis: 50%;
   }
 }
 
@@ -605,7 +684,7 @@ div .button {
 }
 @media (max-width: 768px) {
   .container {
-    max-width: 50rem;
+    max-width: 60rem;
     margin: 0 6rem;
   }
   .header-title {
@@ -614,7 +693,11 @@ div .button {
   .header-content {
     padding-top: 3rem;
   }
+  .card {
+    flex-basis: 100%;
+  }
 }
+
 @media (max-width: 576px) {
   .container {
     max-width: 90%;
