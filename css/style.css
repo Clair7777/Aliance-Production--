@@ -299,6 +299,9 @@ h1 {
   padding-bottom: 0.375rem;
   letter-spacing: 0.58px;
 }
+.section-marks-two {
+  display: none;
+}
 
 .section-light {
   margin-top: 7.1875rem;
@@ -828,7 +831,7 @@ h1 {
     height: 55.8rem;
   }
   .card-text {
-    width: 35rem;
+    /* width: 35rem; */
     font-weight: 400;
     font-size: 17px;
     line-height: 160%;
@@ -876,5 +879,264 @@ h1 {
   }
   .header-logo {
     flex-grow: 1;
+  }
+}
+@media (max-width: 376px) {
+  .container {
+    max-width: 92%;
+    margin: 0 1.2rem;
+    padding-left: 0.1px;
+  }
+  .navbar {
+    height: 5.7rem;
+  }
+  .navbar-button {
+    padding-left: 0.64rem;
+  }
+  .button-icon {
+    width: 4.0625rem;
+    padding-left: 1.2125rem;
+  }
+  .mobile-menu-toggle {
+    width: 6.6625rem;
+    padding: 2.2938rem 2.5375rem;
+  }
+
+  .mobile-menu-line {
+    height: 1px;
+    width: 100%;
+    padding-left: 0.3125rem;
+  }
+  .logo-svg {
+    width: 10rem;
+    height: 5.5rem;
+    margin-right: 1.15rem;
+    margin-left: 1.3438rem;
+  }
+  .header {
+    padding-top: 9.28rem;
+  }
+  .header-content {
+    padding-top: 0.59rem;
+  }
+  .header-title {
+    width: 21.5625rem;
+    height: 26.35rem;
+    margin: 1.2rem 0.075rem 4.0375rem 0.025rem;
+    font-size: 4.1rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    word-spacing: 0.5px;
+  }
+  .header-text {
+    font-size: 14px;
+    line-height: 155.8%;
+    margin-bottom: 2.625rem;
+    word-spacing: -0.87px;
+    letter-spacing: 0.17px;
+  }
+  .header-features {
+    margin-top: 4.25rem;
+    margin-bottom: 0;
+  }
+  .header-features-item {
+    width: 12.5rem;
+    height: 11.65rem;
+    padding-top: 1.5438rem;
+    padding-left: 2.3rem;
+  }
+  .header-features-text {
+    font-size: 1.1rem;
+    line-height: 165%;
+    padding-top: 7px;
+    padding-left: 2.3px;
+    letter-spacing: 0.5px;
+    word-spacing: 0px;
+    min-width: 13.175rem;
+  }
+  .slider-buttons {
+    height: 3.6rem;
+  }
+  .arrow-icon {
+    width: 3.2rem;
+    height: 2.9rem;
+  }
+  .section-title {
+    margin-top: 1.4rem;
+    letter-spacing: -0.2px;
+    font-size: 3.05rem;
+    margin-bottom: 2.025rem;
+  }
+  .steps-item {
+    width: 3.5625rem;
+    height: 15.6875rem;
+    padding-right: 3.275rem;
+  }
+  .steps-num {
+    font-size: 3.9125rem;
+  }
+  .steps-num::after {
+    margin-left: 3.0875rem;
+  }
+  .steps-title {
+    margin-top: 1.1875rem;
+    letter-spacing: 0.0294rem;
+  }
+  .steps-text {
+    font-size: 1.125rem;
+    margin-top: 0.65rem;
+    margin-bottom: 2.25rem;
+    letter-spacing: 0.3696px;
+  }
+  .steps-link {
+    letter-spacing: 0.07rem;
+    font-size: 1.1rem;
+  }
+  .steps-link:before {
+    width: 3.2rem;
+    margin-right: 1.85rem;
+  }
+  .section-light {
+    margin-top: 8.4rem;
+    margin-bottom: 5.625rem;
+  }
+  .seporator {
+    width: 8.275rem;
+  }
+  .button-detail {
+    width: 28.7625rem;
+    height: 4.95rem;
+    align-items: center;
+    display: inline-block;
+    padding: 1.47rem 7.025rem;
+    flex-grow: 0;
+    word-spacing: 1.47px;
+    letter-spacing: 0.18px;
+    font-size: 14px;
+  }
+
+  .slider-item-buttons {
+    margin-top: -1px;
+  }
+  .slider-button-item-prev,
+  .slider-button-item-next {
+    width: 5rem;
+    height: 3.4rem;
+  }
+  .production {
+    margin-top: 8.228rem;
+  }
+  .section-title {
+    letter-spacing: 0px;
+    margin-bottom: 2.625rem;
+  }
+  .card-content {
+    width: auto;
+    padding-top: 1.0437rem;
+    padding-left: 1.7188rem;
+    padding-right: 0;
+  }
+
+  .card-title {
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: 0.2px;
+  }
+  .card-text {
+    margin-top: 0.5875rem;
+    margin-right: 0.3125rem;
+    letter-spacing: 0.1px;
+    margin-right: 0.9375rem;
+  }
+  .title-light {
+    margin-bottom: 2.125rem;
+  }
+  .text-light {
+    margin-bottom: 1.5rem;
+  }
+  .buttons-light {
+    margin-top: 1px;
+  }
+  .cards-prodaction {
+    height: 428.5px;
+  }
+  .section-trading {
+    margin-top: 0.625rem;
+  }
+  .production {
+    margin-top: 7.228rem;
+    margin-bottom: 8.375rem;
+  }
+  .section-marks {
+    display: none;
+  }
+  .section-marks-two {
+    display: block;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.35px;
+    margin-top: 1.2375rem;
+    margin-bottom: 2.8875rem;
+  }
+  .icon-trading {
+    margin-top: 2.5375rem;
+    margin-right: 2.5375rem;
+    margin-left: 2.5375rem;
+    margin-bottom: 10px;
+    width: 8.075rem;
+    height: 8.075rem;
+    /* z-index: -1; */
+    margin-bottom: 10px;
+  }
+  .card-trading {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cards-trading {
+    height: 44rem;
+  }
+  .card-trading-content {
+    margin-top: 2.225rem;
+    width: 100%;
+    margin-bottom: 3.1rem;
+  }
+  .card-trading-title {
+    line-height: 1.32;
+    letter-spacing: -0.45px;
+    padding-bottom: 5.5375rem;
+    margin-left: 9.8812rem;
+    margin-top: -2.4875rem;
+  }
+  .card-img-wrp {
+    height: 2.5rem;
+  }
+  .card-trading-text {
+    margin-left: 1.8125rem;
+    line-height: 21.42px;
+    letter-spacing: 1.15px;
+  }
+  .tittle-AP {
+    margin-bottom: 2.2375rem;
+    margin-top: -2.8625rem;
+  }
+  .content-AP {
+    padding-top: 1px;
+  }
+  .icon-AP {
+    margin-top: 1.9375rem;
+    margin-right: 2.6375rem;
+    margin-left: 2.4375rem;
+    margin-bottom: 0.625rem;
+    width: 8.175rem;
+    height: 8.175rem;
   }
 }
