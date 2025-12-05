@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 html {
-  font-size: 16px;
+  font-size: 1rem;
 }
 @font-face {
   font-family: "Bebas Neue";
@@ -64,7 +64,6 @@ h1 {
   background-position: center left;
   position: relative;
   width: 100%;
-  /* height: 60.625rem; */
 }
 .header-image::before {
   content: "";
@@ -111,13 +110,13 @@ h1 {
   line-height: 160%;
   color: inherit;
   position: relative;
-  letter-spacing: 0.01px;
+  letter-spacing: 0.0096px;
   padding-top: 0.3125rem;
 }
 .header-nav-link:after {
   content: "";
   width: 0px;
-  height: 2px;
+  height: 0.125rem;
   position: absolute;
   bottom: -1px;
   background-color: #5c8ee5;
@@ -182,7 +181,7 @@ h1 {
 .seporator {
   background: #5c8ee6;
   width: 9.375rem;
-  height: 2px;
+  height: 0.125rem;
   border-top: 0.0625rem;
 }
 .header-content {
@@ -198,8 +197,8 @@ h1 {
   font-size: 5rem;
   line-height: 120%;
   margin: 1.375rem 0;
-  word-spacing: 0.1px;
-  letter-spacing: 0.57px;
+  word-spacing: 0.1008px;
+  letter-spacing: 0.5696px;
   padding-bottom: 1.0625rem;
 }
 .header-text {
@@ -208,8 +207,8 @@ h1 {
   font-size: 1rem;
   line-height: 160%;
   margin-bottom: 3.125rem;
-  word-spacing: 0.13px;
-  letter-spacing: 0.11px;
+  word-spacing: 0.1296px;
+  letter-spacing: 0.1104px;
 }
 .header-features {
   display: flex;
@@ -227,8 +226,8 @@ h1 {
   height: auto;
   padding: 1.9375rem 3.125rem;
   border: 1px solid rgba(235, 235, 240, 0.2);
-  letter-spacing: 0.26px;
-  word-spacing: 0.3px;
+  letter-spacing: 0.2608px;
+  word-spacing: 0.2992px;
 }
 .header-features-text {
   max-width: 10.9375rem;
@@ -255,7 +254,6 @@ h1 {
 .slider-button-item-next {
   width: 3.75rem;
   height: 2.5rem;
-
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -273,7 +271,6 @@ h1 {
   margin-right: 0;
   padding-left: 0;
 }
-
 .header-features-text {
   font-weight: 400;
   font-size: 1rem;
@@ -297,21 +294,18 @@ h1 {
 }
 .section-marks {
   padding-bottom: 0.375rem;
-  letter-spacing: 0.58px;
+  letter-spacing: 0.5792px;
 }
 .section-marks-two {
   display: none;
 }
-
 .section-light {
   margin-top: 7.1875rem;
   margin-bottom: 5.625rem;
 }
-
 .production {
   margin-top: 6.125rem;
 }
-
 .steps {
   display: flex;
   list-style: none;
@@ -330,7 +324,7 @@ h1 {
   font-weight: bold;
   font-size: 2.8125rem;
   line-height: 120%;
-  letter-spacing: 1.1px;
+  letter-spacing: 1.1008px;
   font-stretch: expanded;
   color: #5c8ee6;
   display: flex;
@@ -350,8 +344,8 @@ h1 {
   color: #292d33;
   margin-top: 2.1875rem;
   margin-bottom: 0.625rem;
-  letter-spacing: 0.07px;
-  font-stretch: 0.3px;
+  letter-spacing: 0.0704px;
+  font-stretch: 0.2992px;
 }
 .steps-text {
   font-weight: 400;
@@ -360,8 +354,7 @@ h1 {
   color: #828a99;
   margin-top: 0.75rem;
   margin-bottom: 1.25rem;
-
-  letter-spacing: 0.07px;
+  letter-spacing: 0.0704px;
 }
 .steps-link {
   display: flex;
@@ -370,7 +363,7 @@ h1 {
   font-weight: 600;
   font-size: 1rem;
   line-height: 160%;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.1008px;
   color: #5c8ee6;
 }
 .steps-link:before {
@@ -390,8 +383,7 @@ h1 {
 }
 .card {
   text-decoration: none;
-  /* max-width: 30rem; */
-  width: 30rem;
+  width: 480px;
   border: 1px solid #ebebf0;
   position: relative;
   transition: border 0.2s;
@@ -406,9 +398,8 @@ h1 {
   padding: 2.5rem 3.125rem;
   height: 37.0625rem;
   width: 30rem;
-  letter-spacing: 0.05px;
+  letter-spacing: 0.0496px;
 }
-
 .card-title {
   font-weight: 400;
   font-size: 1.75rem;
@@ -417,7 +408,7 @@ h1 {
   margin-top: 0.355rem;
   margin-bottom: -0.07rem;
   transition: color 0.2s;
-  letter-spacing: 0.22px;
+  letter-spacing: 0.2208px;
 }
 .cards > a:nth-child(3) > .card-content {
   padding-right: 1px;
@@ -437,60 +428,55 @@ h1 {
   z-index: 0;
   width: 100%;
 }
-.cards-trading {
+.trademark-cards {
   display: flex;
-  min-width: 17.5rem;
-  min-height: 17.5rem;
 }
-.card-trading {
-  display: flex;
-  text-decoration: none;
+.trademark-card {
   flex-basis: 50%;
+  text-decoration: none;
   border: 1px solid #ebebf0;
   transition: border 0.2s;
+  padding: 3.125rem;
+  display: grid;
+  grid-column-gap: 3.125rem;
+  grid-template-columns: 11.25rem 1fr;
+  grid-template-rows: auto 2fr;
+  grid-template-areas:
+    "logo title title"
+    "logo text text";
 }
-.card-trading-title {
-  padding-bottom: 0.9375rem;
+.trademark-card-title {
   font-weight: 400;
-  font-size: 1.75rem;
-  line-height: 140%;
-  color: #292d33;
-  transition: color 0.2s;
   margin: 0;
+  font-size: 1.75rem;
+  line-height: 160%;
+  color: #292d33;
+  grid-area: title;
 }
-.card-trading-text {
+.trademark-card-text {
   font-weight: 400;
   font-size: 1rem;
-  line-height: 165%;
+  line-height: 162.5%;
+  font-style: normal;
   color: #828a99;
-  max-width: 22.5rem;
-  margin: 0;
-  letter-spacing: 0.05px;
-  line-height: 165%;
+  letter-spacing: 0.07px;
+  grid-area: text;
+  margin-top: 0.725rem;
 }
-.card-trading-content {
-  margin-top: 3.325rem;
-  margin-right: 1.875rem;
-  margin-bottom: 4.4375rem;
-}
-.icon-trading {
-  fill: currentColor;
-  margin: 3.125rem;
-  width: 11.25rem;
+.trademark-card-logo {
+  width: 100%;
   height: 11.25rem;
-  align-items: center;
-}
-.card-trading .icon-trading {
+  grid-area: logo;
   fill: #828a99;
 }
-.card-trading:hover .icon-trading {
+.trademark-card:hover {
+  border-color: #5c8ee5;
+}
+.trademark-card:hover .trademark-card-logo {
   fill: #5c8ee6;
 }
-.card-trading:hover .card-trading-title {
-  color: #5c8ee5;
-}
-.card-trading:hover {
-  border-color: #5c8ee5;
+.trademark-card:hover .trademark-card-title {
+  color: #5c8ee6;
 }
 
 @media (max-width: 1815px) {
@@ -502,7 +488,7 @@ h1 {
 @media (max-width: 1800px) {
   .header-features-item {
     font-size: 0.8rem;
-    padding: 1.9rem 11.2px;
+    padding: 1.9rem 0.7rem;
   }
   .header-phone {
     margin-right: 1.625rem;
@@ -511,7 +497,10 @@ h1 {
 
 @media (max-width: 1700px) {
   html {
-    font-size: 15px;
+    font-size: 0.9375rem;
+  }
+  .card {
+    width: 29.125rem;
   }
 }
 @media (max-width: 1650px) {
@@ -519,13 +508,13 @@ h1 {
     padding-left: 0;
   }
   .header-logo {
-    padding: 0 45px;
+    padding: 0 2.8125rem;
   }
 }
 
 @media (max-width: 1600px) {
   html {
-    font-size: 14.5px;
+    font-size: 0.9063rem;
   }
   .steps-title {
     font-size: 1.6rem;
@@ -537,7 +526,7 @@ h1 {
 
 @media (max-width: 1500px) {
   html {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .header-logo {
     padding: 0 3rem;
@@ -558,14 +547,14 @@ h1 {
 
 @media (max-width: 1400px) {
   html {
-    font-size: 13.5px;
+    font-size: 0.8438rem;
   }
   .container {
     max-width: 80rem;
   }
   .card {
     width: 50%;
-    height: calc(480px * 1.25);
+    height: calc(30rem * 1.25);
   }
   .card-text {
     width: 28rem;
@@ -592,15 +581,16 @@ h1 {
 
 @media (max-width: 1300px) {
   html {
-    font-size: 13px;
+    font-size: 0.8125rem;
   }
   .card {
     height: 46rem;
   }
 }
+
 @media (max-width: 1250px) {
   html {
-    font-size: 12.5px;
+    font-size: 0.7813rem;
   }
   .logo-svg {
     width: 8.5rem;
@@ -612,7 +602,7 @@ h1 {
 
 @media (max-width: 1200px) {
   html {
-    font-size: 12.5px;
+    font-size: 0.7813rem;
   }
   .container {
     max-width: 75rem;
@@ -638,6 +628,9 @@ h1 {
   .slider-item-buttons {
     display: flex;
   }
+  .trademark-card {
+    grid-template-columns: auto auto;
+  }
 }
 
 @media (max-width: 1130px) {
@@ -651,7 +644,7 @@ h1 {
 
 @media (max-width: 992px) {
   html {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   .logo-svg {
     width: 9rem;
@@ -664,14 +657,13 @@ h1 {
     justify-content: center;
     padding: 0;
   }
-
   .mobile-menu-toggle {
-    width: 80px;
-    height: 100%;
+    width: 5rem;
+    height: 4.25rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1.8rem;
+    padding: 1.625rem 1.2813rem;
     border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
   .navbar-light .mobile-menu-line {
@@ -694,7 +686,6 @@ h1 {
     display: block;
     fill: #ffffff;
   }
-
   .mobile-menu {
     position: fixed;
     top: 0;
@@ -720,11 +711,10 @@ h1 {
   .mobile-menu-nav-item {
     margin-bottom: 2rem;
   }
-
   .mobile-menu-link {
     text-decoration: none;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 160%;
     color: #292d33;
   }
@@ -737,7 +727,7 @@ h1 {
   .mobile-submenu-link {
     text-decoration: none;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 160%;
     color: #828a99;
   }
@@ -748,7 +738,7 @@ h1 {
   .mobile-phone {
     display: block;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 160%;
     color: #292d33;
     text-decoration-line: underline;
@@ -767,7 +757,7 @@ h1 {
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 160%;
     color: #292d33;
   }
@@ -785,22 +775,20 @@ h1 {
     align-items: center;
     gap: 0.9375rem;
   }
-
   .mobile-info-email {
     display: flex;
     gap: 0.9375rem;
     margin-bottom: 0.9375rem;
   }
   .card {
-    height: 40.5rem;
+    height: 40rem;
     width: 50%;
   }
-
   .card-content {
-    width: 25.9rem;
+    width: 100%;
   }
   .card-text {
-    width: 21rem;
+    width: 100%;
   }
   .cards-trading {
     width: 100%;
@@ -814,7 +802,11 @@ h1 {
   .card-trading-text {
     max-width: 100%;
   }
+  .trademark-cards {
+    flex-direction: column;
+  }
 }
+
 @media (max-width: 768px) {
   .container {
     max-width: 60rem;
@@ -831,9 +823,8 @@ h1 {
     height: 55.8rem;
   }
   .card-text {
-    /* width: 35rem; */
     font-weight: 400;
-    font-size: 17px;
+    font-size: 1.0625rem;
     line-height: 160%;
   }
   .card-content {
@@ -844,6 +835,16 @@ h1 {
     margin: 1.25rem;
     width: 8.125rem;
     height: 8.125rem;
+  }
+  .section-marks-one {
+    display: none;
+  }
+  .section-marks-two {
+    display: block;
+  }
+  .mobile-menu-toggle {
+    height: 100%;
+    padding: 1.7125rem 1.8625rem;
   }
 }
 
@@ -864,10 +865,21 @@ h1 {
   }
   .card-content {
     width: 26rem;
-    padding: 2.5rem 15px;
+    padding: 2.5rem 0.9375rem;
   }
   .card-text {
-    font-size: 14px;
+    font-size: 0.875rem;
+  }
+  .trademark-card {
+    grid-template-areas:
+      "logo title"
+      "text text";
+  }
+  .mobile-menu-toggle {
+    padding: 1.7125rem 1.9625m;
+  }
+  .card {
+    height: 46rem;
   }
 }
 
@@ -880,15 +892,29 @@ h1 {
   .header-logo {
     flex-grow: 1;
   }
+  .card-text {
+    width: 17.4312rem;
+  }
+  .card {
+    height: 39rem;
+  }
+  .trademark-card-logo {
+    width: 80px;
+  }
+  .trademark-card {
+    grid-template-columns: 60px auto;
+    grid-column-gap: 1.25rem;
+  }
 }
+
 @media (max-width: 376px) {
   .container {
     max-width: 92%;
     margin: 0 1.2rem;
-    padding-left: 0.1px;
+    padding-left: 0.0063rem;
   }
   .navbar {
-    height: 5.7rem;
+    height: 5.6125rem;
   }
   .navbar-button {
     padding-left: 0.64rem;
@@ -898,10 +924,9 @@ h1 {
     padding-left: 1.2125rem;
   }
   .mobile-menu-toggle {
-    width: 6.6625rem;
-    padding: 2.2938rem 2.5375rem;
+    width: 6.7rem;
+    padding: 2.2063rem 2.4625rem;
   }
-
   .mobile-menu-line {
     height: 1px;
     width: 100%;
@@ -922,21 +947,21 @@ h1 {
   .header-title {
     width: 21.5625rem;
     height: 26.35rem;
-    margin: 1.2rem 0.075rem 4.0375rem 0.025rem;
+    margin: 1.2rem 0.075rem 4rem 0.025rem;
     font-size: 4.1rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.18;
-    letter-spacing: normal;
-    word-spacing: 0.5px;
+    letter-spacing: 0.1px;
+    word-spacing: 0.0313rem;
   }
   .header-text {
     font-size: 14px;
-    line-height: 155.8%;
+    line-height: 1.57;
     margin-bottom: 2.625rem;
-    word-spacing: -0.87px;
-    letter-spacing: 0.17px;
+    word-spacing: -0.8704px;
+    letter-spacing: 0.1696px;
   }
   .header-features {
     margin-top: 4.25rem;
@@ -951,9 +976,9 @@ h1 {
   .header-features-text {
     font-size: 1.1rem;
     line-height: 165%;
-    padding-top: 7px;
-    padding-left: 2.3px;
-    letter-spacing: 0.5px;
+    padding-top: 0.4375rem;
+    padding-left: 0.1437rem;
+    letter-spacing: 0.0313rem;
     word-spacing: 0px;
     min-width: 13.175rem;
   }
@@ -966,9 +991,10 @@ h1 {
   }
   .section-title {
     margin-top: 1.4rem;
-    letter-spacing: -0.2px;
+    letter-spacing: 0.2px;
     font-size: 3.05rem;
-    margin-bottom: 2.025rem;
+    /* margin-bottom: 2.025rem; */
+    margin-bottom: 2.225rem;
   }
   .steps-item {
     width: 3.5625rem;
@@ -983,13 +1009,13 @@ h1 {
   }
   .steps-title {
     margin-top: 1.1875rem;
-    letter-spacing: 0.0294rem;
+    letter-spacing: 0.4704px;
   }
   .steps-text {
     font-size: 1.125rem;
     margin-top: 0.65rem;
     margin-bottom: 2.25rem;
-    letter-spacing: 0.3696px;
+    letter-spacing: 0.0231rem;
   }
   .steps-link {
     letter-spacing: 0.07rem;
@@ -1013,11 +1039,13 @@ h1 {
     display: inline-block;
     padding: 1.47rem 7.025rem;
     flex-grow: 0;
-    word-spacing: 1.47px;
-    letter-spacing: 0.18px;
-    font-size: 14px;
+    word-spacing: 1.4704px;
+    letter-spacing: 0.185px;
+    font-size: 0.875rem;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
   }
-
   .slider-item-buttons {
     margin-top: -1px;
   }
@@ -1026,117 +1054,78 @@ h1 {
     width: 5rem;
     height: 3.4rem;
   }
-  .production {
-    margin-top: 8.228rem;
-  }
-  .section-title {
-    letter-spacing: 0px;
-    margin-bottom: 2.625rem;
+  .card {
+    height: 34rem;
   }
   .card-content {
     width: auto;
-    padding-top: 1.0437rem;
-    padding-left: 1.7188rem;
+    height: auto;
+    padding-top: 1.4437rem;
+    padding-left: 2.5188rem;
     padding-right: 0;
   }
-
   .card-title {
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.3;
-    letter-spacing: 0.2px;
+    letter-spacing: 1.2px;
   }
   .card-text {
-    margin-top: 0.5875rem;
+    width: 15.375rem;
+    height: 18.5rem;
+    margin-top: 0.9875rem;
     margin-right: 0.3125rem;
-    letter-spacing: 0.1px;
-    margin-right: 0.9375rem;
+    margin-bottom: 0.625rem;
+    font-size: 0.875rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+  }
+  .cards-prodaction {
+    height: 35.9rem;
   }
   .title-light {
     margin-bottom: 2.125rem;
   }
   .text-light {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
   }
   .buttons-light {
-    margin-top: 1px;
-  }
-  .cards-prodaction {
-    height: 428.5px;
+    margin-top: 0.0625rem;
   }
   .section-trading {
     margin-top: 0.625rem;
   }
   .production {
-    margin-top: 7.228rem;
-    margin-bottom: 8.375rem;
+    margin-top: 8.328rem;
+    margin-bottom: 5.9375rem;
   }
-  .section-marks {
-    display: none;
+  .trademark {
+    margin-top: 8.34rem;
   }
-  .section-marks-two {
-    display: block;
-    font-size: 36px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.2;
-    letter-spacing: 0.35px;
-    margin-top: 1.2375rem;
-    margin-bottom: 2.8875rem;
+  .trademark-card {
+    grid-column-gap: 2.525rem;
+    grid-template-columns: 34.7% auto;
+    padding-top: 1rem;
+    padding-left: 2.3625rem;
+    padding-right: 1.875rem;
+    padding-bottom: 1.25rem;
   }
-  .icon-trading {
-    margin-top: 2.5375rem;
-    margin-right: 2.5375rem;
-    margin-left: 2.5375rem;
-    margin-bottom: 10px;
-    width: 8.075rem;
-    height: 8.075rem;
-    /* z-index: -1; */
-    margin-bottom: 10px;
+  .trademark-card-title {
+    margin-top: 1.1313rem;
+    letter-spacing: -0.6px;
+    line-height: 130%;
+    padding-top: 0.3125rem;
   }
-  .card-trading {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .cards-trading {
-    height: 44rem;
-  }
-  .card-trading-content {
-    margin-top: 2.225rem;
-    width: 100%;
-    margin-bottom: 3.1rem;
-  }
-  .card-trading-title {
-    line-height: 1.32;
-    letter-spacing: -0.45px;
-    padding-bottom: 5.5375rem;
-    margin-left: 9.8812rem;
-    margin-top: -2.4875rem;
-  }
-  .card-img-wrp {
-    height: 2.5rem;
-  }
-  .card-trading-text {
-    margin-left: 1.8125rem;
-    line-height: 21.42px;
-    letter-spacing: 1.15px;
-  }
-  .tittle-AP {
-    margin-bottom: 2.2375rem;
-    margin-top: -2.8625rem;
-  }
-  .content-AP {
-    padding-top: 1px;
-  }
-  .icon-AP {
-    margin-top: 1.9375rem;
-    margin-right: 2.6375rem;
-    margin-left: 2.4375rem;
-    margin-bottom: 0.625rem;
-    width: 8.175rem;
-    height: 8.175rem;
+  .trademark-card-text {
+    margin-top: 0.225rem;
+    margin-bottom: 1.4rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    line-height: 164%;
   }
 }
