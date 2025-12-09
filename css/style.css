@@ -356,7 +356,7 @@ h1 {
   margin-bottom: 1.25rem;
   letter-spacing: 0.0704px;
 }
-.steps-link {
+.button-link {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -366,7 +366,7 @@ h1 {
   letter-spacing: 0.1008px;
   color: #5c8ee6;
 }
-.steps-link:before {
+.button-link:before {
   content: "";
   height: 1px;
   background: #5c8ee6;
@@ -374,7 +374,7 @@ h1 {
   margin-right: 1.25rem;
   transition: width 0.2s;
 }
-.steps-link:hover:before {
+.button-link:hover:before {
   width: 3.75rem;
 }
 .cards {
@@ -444,6 +444,7 @@ h1 {
   grid-template-areas:
     "logo title title"
     "logo text text";
+  cursor: pointer;
 }
 .trademark-card-title {
   font-weight: 400;
@@ -477,6 +478,102 @@ h1 {
 }
 .trademark-card:hover .trademark-card-title {
   color: #5c8ee6;
+}
+.founder {
+  min-height: 41.25rem;
+  position: relative;
+}
+.founder-photo {
+  position: absolute;
+  left: 0;
+  width: 43.8%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+}
+.founder-content {
+  width: 45rem;
+  margin-top: 3.1313rem;
+}
+.founder-content-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.founder-text {
+  letter-spacing: 0.0075rem;
+  word-spacing: 0.0125rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160.8%;
+  color: #828a99;
+  padding-bottom: 0.4688rem;
+}
+.founder-title {
+  margin-top: 1.3938rem;
+  margin-bottom: 1.3937rem;
+  line-height: 126.7%;
+  letter-spacing: 0.0375rem;
+}
+.founder-text-two {
+  padding-bottom: 13.5px;
+}
+.founder-button-link-two {
+  display: none;
+}
+.clients-wrapper {
+  display: flex;
+  gap: 0.025rem;
+  justify-content: space-between;
+}
+.clients-content {
+  width: 43.75rem;
+}
+.clients-list {
+  list-style-type: none;
+  padding: 0;
+  columns: 2 auto;
+}
+.clients-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292d33;
+  margin-bottom: 1.275rem;
+  letter-spacing: 0.0125rem;
+}
+.clients-logo-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 10;
+  width: 45rem;
+  margin-top: 2rem;
+}
+.clients-logo-item {
+  flex-basis: 33.33%;
+  border: 1px solid #ebebf0;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.clients-logo {
+  max-width: 100%;
+  filter: grayscale(100%);
+  /* width: 70px;
+  height: 70px; */
+}
+.clients-logo:hover {
+  filter: none;
+}
+.clients-title {
+  letter-spacing: 0.03rem;
+  margin-bottom: 2.8125rem;
 }
 
 @media (max-width: 1815px) {
@@ -631,6 +728,20 @@ h1 {
   .trademark-card {
     grid-template-columns: auto auto;
   }
+  .founder-content {
+    width: 100%;
+    padding-left: 39.25rem;
+  }
+  .clients-wrapper {
+    flex-wrap: wrap;
+  }
+  .clients-content {
+    width: 100%;
+    padding-left: 6rem;
+  }
+  .clients-list-item {
+    font-size: 1.8rem;
+  }
 }
 
 @media (max-width: 1130px) {
@@ -639,6 +750,9 @@ h1 {
   }
   .card {
     height: 44rem;
+  }
+  .founder-content {
+    padding-left: 38.25rem;
   }
 }
 
@@ -805,6 +919,28 @@ h1 {
   .trademark-cards {
     flex-direction: column;
   }
+  .founder-content-wrapper {
+    justify-content: flex-start;
+    /* width: 100%; */
+  }
+  .founder-photo {
+    position: relative;
+    width: 100%;
+    margin-bottom: 3.125rem;
+  }
+  .founder-content {
+    width: 63rem;
+    padding-left: 6rem;
+  }
+  .clients-wrapper {
+    flex-direction: column;
+  }
+  .clients-list {
+    max-width: 65.75rem;
+  }
+  .clients-list-item {
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -846,6 +982,26 @@ h1 {
     height: 100%;
     padding: 1.7125rem 1.8625rem;
   }
+  .founder-content-wrapper {
+    justify-content: flex-start;
+  }
+  .founder-content {
+    width: 100%;
+  }
+  .founder-text {
+    font-size: 0.9375rem;
+    /* width: 43rem; */
+  }
+  .clients-content {
+    /* width: auto; */
+    padding-left: 0;
+  }
+  .clients-logo-item {
+    flex-basis: 40%;
+  }
+  .clients-logo-list {
+    width: 43rem;
+  }
 }
 
 @media (max-width: 576px) {
@@ -876,10 +1032,45 @@ h1 {
       "text text";
   }
   .mobile-menu-toggle {
-    padding: 1.7125rem 1.9625m;
+    padding: 1.7125rem 1.9625rem;
   }
   .card {
     height: 46rem;
+  }
+  .clients-wrapper {
+    width: 36.875rem;
+  }
+  .clients-list {
+    columns: 1;
+    width: 29rem;
+  }
+  .clients-title {
+    width: 25rem;
+  }
+  .clients-logo-list {
+    width: 31.8rem;
+  }
+  .clients-content {
+    width: 18.75rem;
+  }
+  .clients-logo-item {
+    flex-basis: 43%;
+  }
+  .clients-list-item {
+    font-size: 0.9rem;
+  }
+
+  .founder-content {
+    padding-left: 0;
+  }
+  .founder-text {
+    width: 31rem;
+  }
+  .founder-content {
+    padding-left: 2rem;
+  }
+  .clients-logo-item {
+    flex-basis: 69%;
   }
 }
 
@@ -904,6 +1095,21 @@ h1 {
   .trademark-card {
     grid-template-columns: 60px auto;
     grid-column-gap: 1.25rem;
+  }
+  .clients-logo-list {
+    width: 25rem;
+  }
+  .clients-content {
+    width: 29rem;
+  }
+  .clients-wrapper {
+    width: 29rem;
+  }
+  .clients-list {
+    width: 20rem;
+  }
+  .founder-text {
+    width: 24rem;
   }
 }
 
@@ -959,9 +1165,9 @@ h1 {
   .header-text {
     font-size: 14px;
     line-height: 1.57;
-    margin-bottom: 2.625rem;
-    word-spacing: -0.8704px;
-    letter-spacing: 0.1696px;
+    margin-bottom: 2.525rem;
+    word-spacing: -1.6704px;
+    letter-spacing: 0.2696px;
   }
   .header-features {
     margin-top: 4.25rem;
@@ -978,9 +1184,9 @@ h1 {
     line-height: 165%;
     padding-top: 0.4375rem;
     padding-left: 0.1437rem;
-    letter-spacing: 0.0313rem;
-    word-spacing: 0px;
-    min-width: 13.175rem;
+    letter-spacing: 0.05rem;
+    word-spacing: -0.57px;
+    min-width: 12.575rem;
   }
   .slider-buttons {
     height: 3.6rem;
@@ -991,10 +1197,14 @@ h1 {
   }
   .section-title {
     margin-top: 1.4rem;
-    letter-spacing: 0.2px;
+    letter-spacing: 0px;
     font-size: 3.05rem;
-    /* margin-bottom: 2.025rem; */
-    margin-bottom: 2.225rem;
+    margin-bottom: 2.725rem;
+  }
+  .section-marks {
+    margin-top: 1.45rem;
+    margin-bottom: 2.3563rem;
+    letter-spacing: 0.16px;
   }
   .steps-item {
     width: 3.5625rem;
@@ -1013,15 +1223,17 @@ h1 {
   }
   .steps-text {
     font-size: 1.125rem;
-    margin-top: 0.65rem;
+    margin-top: 0.45rem;
     margin-bottom: 2.25rem;
     letter-spacing: 0.0231rem;
+    word-spacing: 1.8px;
   }
-  .steps-link {
+  .button-link {
     letter-spacing: 0.07rem;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
+    word-spacing: -3.4px;
   }
-  .steps-link:before {
+  .button-link:before {
     width: 3.2rem;
     margin-right: 1.85rem;
   }
@@ -1034,14 +1246,14 @@ h1 {
   }
   .button-detail {
     width: 28.7625rem;
-    height: 4.95rem;
+    height: 5.05rem;
     align-items: center;
     display: inline-block;
-    padding: 1.47rem 7.025rem;
+    padding: 1.57rem 7.125rem;
     flex-grow: 0;
-    word-spacing: 1.4704px;
-    letter-spacing: 0.185px;
-    font-size: 0.875rem;
+    word-spacing: 1.0704px;
+    letter-spacing: 0.085px;
+    font-size: 1.175rem;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.6;
@@ -1052,7 +1264,7 @@ h1 {
   .slider-button-item-prev,
   .slider-button-item-next {
     width: 5rem;
-    height: 3.4rem;
+    height: 3.2rem;
   }
   .card {
     height: 34rem;
@@ -1070,29 +1282,31 @@ h1 {
     font-stretch: normal;
     font-style: normal;
     line-height: 1.3;
-    letter-spacing: 1.2px;
+    letter-spacing: 1.15px;
+    word-spacing: 0.9px;
   }
   .card-text {
-    width: 15.375rem;
+    width: 22.375rem;
     height: 18.5rem;
-    margin-top: 0.9875rem;
+    margin-top: 0.8875rem;
     margin-right: 0.3125rem;
     margin-bottom: 0.625rem;
-    font-size: 0.875rem;
+    font-size: 1.169rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.6;
-    letter-spacing: normal;
+    letter-spacing: 0.09px;
+    word-spacing: -1.3px;
   }
   .cards-prodaction {
-    height: 35.9rem;
+    height: 35.75rem;
   }
   .title-light {
     margin-bottom: 2.125rem;
   }
   .text-light {
-    margin-bottom: 2rem;
+    margin-bottom: 2.13rem;
   }
   .buttons-light {
     margin-top: 0.0625rem;
@@ -1113,19 +1327,105 @@ h1 {
     padding-top: 1rem;
     padding-left: 2.3625rem;
     padding-right: 1.875rem;
-    padding-bottom: 1.25rem;
+    padding-bottom: 1.15rem;
+  }
+  .trademark-card-logo {
+    width: 8.4438rem;
   }
   .trademark-card-title {
     margin-top: 1.1313rem;
     letter-spacing: -0.6px;
     line-height: 130%;
-    padding-top: 0.3125rem;
+    padding-top: 0.2125rem;
   }
   .trademark-card-text {
     margin-top: 0.225rem;
-    margin-bottom: 1.4rem;
+    margin-bottom: 1.3rem;
     font-size: 1.1rem;
     letter-spacing: 0.5px;
     line-height: 164%;
+  }
+  .founder {
+    padding-top: 0.3125rem;
+  }
+  .founder-photo {
+    margin-top: -1.3rem;
+    margin-bottom: 0.825rem;
+  }
+  .founder-content {
+    padding-left: 0;
+  }
+  .founder-title {
+    line-height: 120%;
+    margin-bottom: -0.2875rem;
+  }
+  .founder-text {
+    width: 28.6rem;
+    font-size: 1.15rem;
+    line-height: 159.2%;
+    letter-spacing: 0.02rem;
+    margin-top: 1.2875rem;
+    word-spacing: 0.1px;
+  }
+  .founder-text-two {
+    margin-top: -0.7125rem;
+    margin-bottom: 0.4313rem;
+  }
+  .founder-button-link {
+    display: none;
+  }
+  .founder-button-link-two {
+    display: flex;
+    line-height: 24.9px;
+    word-spacing: -3px;
+    font-size: 1.2rem;
+    letter-spacing: 0.7px;
+  }
+  .founder-button-link-two:before {
+    content: "";
+    height: 1px;
+    background: #5c8ee6;
+    width: 3.5rem;
+    margin-right: 1.55rem;
+    transition: width 0.2s;
+  }
+  .founder-content-wrapper {
+    margin-bottom: -1.1125rem;
+  }
+
+  .clients-list {
+    width: 23.25rem;
+  }
+  .clients-list-item {
+    font-size: 1.2rem;
+    gap: 1.65rem;
+    letter-spacing: -0.1px;
+    word-spacing: 0.01rem;
+    margin-bottom: 1.238rem;
+  }
+  .clients-title {
+    width: 29.5875rem;
+    letter-spacing: 0.1px;
+    word-spacing: 0.0375rem;
+    font-size: 3.05rem;
+    line-height: 118%;
+  }
+  .clients-content {
+    width: 29rem;
+  }
+  .clients-logo-list {
+    margin-top: 0.35rem;
+    width: 28.6625rem;
+  }
+  .clients-logo-item {
+    flex-basis: 50%;
+    height: 9.17rem;
+    width: 3.125rem;
+  }
+  .clients-logo-item:last-child {
+    display: none;
+  }
+  .clients-logo {
+    width: 33.7%;
   }
 }
