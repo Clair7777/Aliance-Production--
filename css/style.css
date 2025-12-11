@@ -232,6 +232,24 @@ h1 {
 .header-features-text {
   max-width: 10.9375rem;
 }
+.primary-buttons-wrapper {
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+}
+.primary-button-prev,
+.primary-button-next {
+  background-color: #5c8ee5;
+  height: 100%;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.steps-buttons {
+  display: none;
+}
 .slider-buttons {
   display: none;
   height: 2.75rem;
@@ -561,12 +579,9 @@ h1 {
   padding: 1rem;
   cursor: pointer;
 }
-
 .clients-logo {
   max-width: 100%;
   filter: grayscale(100%);
-  /* width: 70px;
-  height: 70px; */
 }
 .clients-logo:hover {
   filter: none;
@@ -574,6 +589,57 @@ h1 {
 .clients-title {
   letter-spacing: 0.03rem;
   margin-bottom: 2.8125rem;
+}
+.blog-card {
+  display: flex;
+  position: relative;
+  /* min-height: 25rem; */
+  height: 25rem;
+  flex-direction: column;
+  text-decoration: none;
+  color: #fff;
+  justify-content: flex-end;
+  padding: 3.125rem;
+}
+.blog-card::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(41, 45, 51, 0.6);
+  z-index: -1;
+}
+.blog-card-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+.blog-card-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 160%;
+  margin-bottom: 0.625rem;
+  margin-top: 0;
+}
+.blog-card-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  margin: 0;
+}
+.blog-slider-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 1.875rem;
+  justify-content: space-between;
 }
 
 @media (max-width: 1815px) {
@@ -594,7 +660,7 @@ h1 {
 
 @media (max-width: 1700px) {
   html {
-    font-size: 0.9375rem;
+    font-size: 15px;
   }
   .card {
     width: 29.125rem;
@@ -611,7 +677,7 @@ h1 {
 
 @media (max-width: 1600px) {
   html {
-    font-size: 0.9063rem;
+    font-size: 14.5px;
   }
   .steps-title {
     font-size: 1.6rem;
@@ -623,7 +689,7 @@ h1 {
 
 @media (max-width: 1500px) {
   html {
-    font-size: 0.875rem;
+    font-size: 14px;
   }
   .header-logo {
     padding: 0 3rem;
@@ -644,7 +710,7 @@ h1 {
 
 @media (max-width: 1400px) {
   html {
-    font-size: 0.8438rem;
+    font-size: 13.5px;
   }
   .container {
     max-width: 80rem;
@@ -678,7 +744,7 @@ h1 {
 
 @media (max-width: 1300px) {
   html {
-    font-size: 0.8125rem;
+    font-size: 13px;
   }
   .card {
     height: 46rem;
@@ -687,7 +753,7 @@ h1 {
 
 @media (max-width: 1250px) {
   html {
-    font-size: 0.7813rem;
+    font-size: 12.5px;
   }
   .logo-svg {
     width: 8.5rem;
@@ -698,9 +764,9 @@ h1 {
 }
 
 @media (max-width: 1200px) {
-  html {
-    font-size: 0.7813rem;
-  }
+  /* html {
+    font-size: 12.5008px;
+  } */
   .container {
     max-width: 75rem;
     margin: 0 9rem;
@@ -742,6 +808,12 @@ h1 {
   .clients-list-item {
     font-size: 1.8rem;
   }
+  .blog-card-title {
+    font-size: 1.8rem;
+  }
+  .blog-card-text {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 1130px) {
@@ -754,11 +826,20 @@ h1 {
   .founder-content {
     padding-left: 38.25rem;
   }
+  .blog-card-title {
+    font-size: 1.6875rem;
+  }
+  .blog-card-text {
+    font-size: 1rem;
+  }
+  .blog-card {
+    height: 21rem;
+  }
 }
 
 @media (max-width: 992px) {
   html {
-    font-size: 0.75rem;
+    font-size: 12px;
   }
   .logo-svg {
     width: 9rem;
@@ -921,7 +1002,6 @@ h1 {
   }
   .founder-content-wrapper {
     justify-content: flex-start;
-    /* width: 100%; */
   }
   .founder-photo {
     position: relative;
@@ -940,6 +1020,16 @@ h1 {
   }
   .clients-list-item {
     font-size: 1.3rem;
+  }
+  .blog-card {
+    height: 18rem;
+    padding: 0.9375rem 1.625rem;
+  }
+  .blog-card-title {
+    font-size: 1.375rem;
+  }
+  .blog-card-text {
+    font-size: 0.875rem;
   }
 }
 
@@ -990,10 +1080,8 @@ h1 {
   }
   .founder-text {
     font-size: 0.9375rem;
-    /* width: 43rem; */
   }
   .clients-content {
-    /* width: auto; */
     padding-left: 0;
   }
   .clients-logo-item {
@@ -1001,6 +1089,26 @@ h1 {
   }
   .clients-logo-list {
     width: 43rem;
+  }
+  .blog-card {
+    height: 12.5rem;
+  }
+  .blog-card-title {
+    font-size: 1rem;
+  }
+  .blog-card-text {
+    display: none;
+  }
+  .primary-button-prev,
+  .primary-button-next {
+    height: 67%;
+    width: 5rem;
+  }
+  .button-link-footer {
+    margin-bottom: 1.55rem;
+  }
+  .arrow-icon {
+    width: 2.6rem;
   }
 }
 
@@ -1059,7 +1167,6 @@ h1 {
   .clients-list-item {
     font-size: 0.9rem;
   }
-
   .founder-content {
     padding-left: 0;
   }
@@ -1071,6 +1178,16 @@ h1 {
   }
   .clients-logo-item {
     flex-basis: 69%;
+  }
+  .blog-card {
+    height: 9.375rem;
+    margin-bottom: -0.575rem;
+  }
+  /* .blog-card-title {
+    font-size: 1.375rem;
+  } */
+  .blog-card-text {
+    font-size: 1rem;
   }
 }
 
@@ -1090,10 +1207,10 @@ h1 {
     height: 39rem;
   }
   .trademark-card-logo {
-    width: 80px;
+    width: 5rem;
   }
   .trademark-card {
-    grid-template-columns: 60px auto;
+    grid-template-columns: 3.75rem auto;
     grid-column-gap: 1.25rem;
   }
   .clients-logo-list {
@@ -1110,6 +1227,12 @@ h1 {
   }
   .founder-text {
     width: 24rem;
+  }
+  .blog-card {
+    height: 14.975rem;
+  }
+  .blog-card-title {
+    font-size: 1.25rem;
   }
 }
 
@@ -1163,11 +1286,11 @@ h1 {
     word-spacing: 0.0313rem;
   }
   .header-text {
-    font-size: 14px;
-    line-height: 1.57;
+    font-size: 1.075rem;
+    line-height: 1.69;
     margin-bottom: 2.525rem;
-    word-spacing: -1.6704px;
-    letter-spacing: 0.2696px;
+    word-spacing: -1.4704px;
+    letter-spacing: 0.8696px;
   }
   .header-features {
     margin-top: 4.25rem;
@@ -1199,7 +1322,7 @@ h1 {
     margin-top: 1.4rem;
     letter-spacing: 0px;
     font-size: 3.05rem;
-    margin-bottom: 2.725rem;
+    margin-bottom: 2.825rem;
   }
   .section-marks {
     margin-top: 1.45rem;
@@ -1369,14 +1492,14 @@ h1 {
   }
   .founder-text-two {
     margin-top: -0.7125rem;
-    margin-bottom: 0.4313rem;
+    margin-bottom: 0.8313rem;
   }
   .founder-button-link {
     display: none;
   }
   .founder-button-link-two {
     display: flex;
-    line-height: 24.9px;
+    line-height: 1.5562rem;
     word-spacing: -3px;
     font-size: 1.2rem;
     letter-spacing: 0.7px;
@@ -1392,7 +1515,9 @@ h1 {
   .founder-content-wrapper {
     margin-bottom: -1.1125rem;
   }
-
+  .clients {
+    margin-bottom: -1rem;
+  }
   .clients-list {
     width: 23.25rem;
   }
@@ -1427,5 +1552,19 @@ h1 {
   }
   .clients-logo {
     width: 33.7%;
+  }
+  .blog-card {
+    height: 16rem;
+  }
+  .blog-slider-footer {
+    margin-top: 1.675rem;
+  }
+  .blog-card-title {
+    margin-bottom: 0.65rem;
+    margin-right: 0.625rem;
+    letter-spacing: -0.1px;
+    word-spacing: 1.6488px;
+    font-size: 1.69rem;
+    line-height: 117%;
   }
 }
