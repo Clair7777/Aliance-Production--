@@ -653,8 +653,8 @@ h1 {
 }
 .section-cta {
   position: relative;
-  padding-top: 4.35rem;
-  margin-top: 14.375rem;
+  padding-top: 4.45rem;
+  margin-top: 14.175rem;
   padding-bottom: 6.05rem;
 }
 .cta-image {
@@ -715,7 +715,7 @@ h1 {
   position: absolute;
   cursor: text;
   top: 1.3rem;
-  left: 1.975rem;
+  left: 1.775rem;
   color: #828a99;
   font-weight: 400;
   font-size: 16px;
@@ -734,9 +734,9 @@ h1 {
   padding: 0 0.625rem;
 }
 .cta-form-footer {
-  gap: 1.875rem;
+  gap: 1.775rem;
   display: flex;
-  margin-top: 1.875rem;
+  margin-top: 1.775rem;
   align-items: center;
 }
 .cta-form-button {
@@ -745,6 +745,7 @@ h1 {
   letter-spacing: -0.7px;
   flex-shrink: 0;
   margin-top: 0.075rem;
+  padding-left: 1px;
 }
 .notify {
   display: flex;
@@ -764,6 +765,145 @@ h1 {
   letter-spacing: 0.1px;
   color: #828a99;
 }
+.footer-top {
+  padding-top: 3.425rem;
+  padding-bottom: 2.625rem;
+  display: flex;
+  align-items: center;
+}
+.footer-logo {
+  width: 12.6rem;
+  height: 3.85rem;
+  margin-right: 9.85rem;
+  margin-left: -2px;
+}
+.footer-phone-number {
+  margin-right: 5.2063rem;
+}
+.footer-info {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-style: normal;
+  color: #292d33;
+  gap: 10px;
+}
+.footer-info-address,
+.footer-info-email {
+  font-style: inherit;
+  text-decoration: inherit;
+  color: inherit;
+}
+.footer-info-add {
+  margin-right: 3.225rem;
+}
+.footer-info-mail {
+  margin-right: 4.6188rem;
+}
+.footer-icon-vk {
+  margin-right: 0.7438rem;
+}
+.footer-phone {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 160%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #292d33;
+}
+.footer-social-link {
+  text-decoration: none;
+}
+.footer-seporator {
+  color: #ebebf0;
+  background-color: #ebebf0;
+}
+.footer-seporator-one {
+  margin-bottom: 0;
+}
+.footer-bottom {
+  display: flex;
+  padding-top: 3.125rem;
+  padding-bottom: 0.425rem;
+}
+.footer-menu-title {
+  margin-top: 0;
+  margin-bottom: 1.875rem;
+  margin-right: 6.05rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 160%;
+  letter-spacing: 0.1px;
+}
+.footer-wrapper-marks {
+  margin-left: -4px;
+}
+.footer-menu-list {
+  margin: 0;
+  padding-left: 1.15rem;
+  list-style-type: none;
+}
+.footer-menu-column-2 {
+  columns: 20rem auto;
+  min-width: 45.2rem;
+}
+.footer-menu-link {
+  text-decoration: none;
+  color: #828a99;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  letter-spacing: 0.1px;
+  margin-bottom: 0.9375rem;
+  display: block;
+}
+.footer-menu-link-bold {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292d33;
+  margin-bottom: 1.8813rem;
+  letter-spacing: 0.1px;
+}
+.footer-menu-wrapper:last-child {
+  margin-left: 5rem;
+}
+.footer-wrapper {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  font-style: normal;
+  color: #828a99;
+}
+.footer-wrapper,
+.footer-legal {
+  display: flex;
+  align-items: center;
+  gap: 5.175rem;
+}
+.footer-copyright,
+.footer-policy {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 160%;
+  color: inherit;
+}
+.footer-policy {
+  margin-right: 41.7375rem;
+}
+.footer-author {
+  margin-top: -3px;
+}
+.made-in {
+  font-size: 0.75rem;
+  padding-right: 3.7px;
+}
+.made-in-mobile {
+  display: none;
+}
 
 @media (max-width: 1815px) {
   .header-features-item {
@@ -778,6 +918,9 @@ h1 {
   }
   .header-phone {
     margin-right: 1.625rem;
+  }
+  .footer-logo {
+    margin-right: 7.85rem;
   }
 }
 
@@ -835,6 +978,15 @@ h1 {
   .steps-text {
     font-size: 0.8438rem;
   }
+  .footer-phone {
+    font-size: 1.5625rem;
+  }
+  .footer-logo {
+    margin-right: 6.25rem;
+  }
+  .footer-logo {
+    width: 10rem;
+  }
 }
 
 @media (max-width: 1400px) {
@@ -853,6 +1005,12 @@ h1 {
   }
   .card-content {
     width: 40rem;
+  }
+  .footer-logo {
+    margin-right: 5rem;
+  }
+  .footer-phone {
+    font-size: 1.5rem;
   }
 }
 
@@ -901,6 +1059,12 @@ h1 {
   }
   .icon-trading {
     margin: 1.875rem;
+  }
+  .footer-logo {
+    margin-right: 2rem;
+  }
+  .footer-info-mail {
+    margin-right: 3.125rem;
   }
 }
 
@@ -966,6 +1130,27 @@ h1 {
     width: 34.7rem;
     padding-right: 0.1125rem;
   }
+  .footer-phone-number {
+    margin-right: 3rem;
+  }
+  .footer-menu-title {
+    margin-right: 0.05rem;
+  }
+  .footer-wrapper-prodaction {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-wrapper,
+  .footer-legal {
+    gap: 0.175rem;
+  }
+  .footer-legal {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-policy {
+    margin-bottom: 16px;
+  }
 }
 
 @media (max-width: 1130px) {
@@ -994,6 +1179,31 @@ h1 {
   }
   .cta-image {
     max-width: 36rem;
+  }
+  .logo-svg {
+    width: 7rem;
+  }
+  .footer-info {
+    gap: 1.6px;
+  }
+  .footer-info-add {
+    margin-right: 1.225rem;
+  }
+  .footer-info-mail {
+    margin-right: 1.225rem;
+  }
+  .footer-phone {
+    font-size: 1rem;
+  }
+  .footer-phone-number {
+    margin-right: 1.2rem;
+  }
+  .footer-menu-column-2 {
+    min-width: 22.2rem;
+    columns: unset;
+  }
+  .footer-logo {
+    width: 7rem;
   }
 }
 
@@ -1221,6 +1431,23 @@ h1 {
   .section-cta {
     margin-top: -2.625rem;
   }
+  .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-logo {
+    width: 10rem;
+  }
+  .footer-phone-number {
+    font-size: 1.75rem;
+  }
+  .footer-info-address,
+  .footer-info-email {
+    font-size: 14px;
+  }
+  .footer-policy {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1300,13 +1527,22 @@ h1 {
   .arrow-icon {
     width: 2.6rem;
   }
-  .cta-form-footer {
-  }
-
   .cta-form-button {
     margin-bottom: 1.25rem;
     width: 21rem;
     height: 4rem;
+  }
+  .footer-bottom {
+    flex-direction: column;
+  }
+  .footer-menu-wrapper:last-child {
+    margin-left: 0;
+  }
+  .footer-legal {
+    width: 80%;
+  }
+  .footer-policy {
+    margin-right: 0;
   }
 }
 
@@ -1833,5 +2069,96 @@ h1 {
   .notify-text {
     font-size: 12px;
     line-height: 158.6%;
+  }
+  .bg-grey {
+    height: 47.7rem;
+    margin-bottom: 1.8px;
+  }
+  .footer-top {
+    padding-bottom: 1.6937rem;
+  }
+  .footer-logo {
+    width: 13.3rem;
+    margin-left: 0;
+    margin-bottom: 2.0375rem;
+  }
+  .footer-phone-number {
+    font-size: 28.1px;
+    margin-bottom: 1.5812rem;
+  }
+  .footer-info {
+    gap: 0.8438rem;
+  }
+  .footer-info-add {
+    margin-bottom: 0.725rem;
+  }
+  .footer-info-mail {
+    margin-bottom: 1.8188rem;
+  }
+  .footer-icon-vk {
+    margin-right: 6px;
+  }
+  .footer-bottom {
+    padding-top: 2.525rem;
+    padding-left: 1px;
+  }
+  .footer-menu-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 160%;
+    margin-bottom: 1.525rem;
+  }
+  .footer-menu-link {
+    margin-left: 0.375rem;
+    font-size: 14px;
+    margin-bottom: 0.8062rem;
+  }
+  .footer-menu-column-2 {
+    margin-bottom: 1.8188rem;
+    margin-left: 2px;
+  }
+  .footer-title-avtochem {
+    margin-top: 0.675rem;
+    margin-bottom: 1.5813rem;
+  }
+  .footer-wrapper-marks {
+    margin-left: 0;
+    margin-bottom: 1.6875rem;
+  }
+  .footer-list-bold {
+    padding-left: 0;
+    margin-bottom: -0.7rem;
+  }
+  .footer-menu-link-bold {
+    margin-left: 0;
+    letter-spacing: 0.4px;
+    margin-bottom: 2.4125rem;
+  }
+  .footer-copyright,
+  .footer-policy {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.05px;
+  }
+  .footer-policy {
+    margin-bottom: 1.1375rem;
+  }
+  .footer-copyright {
+    margin-top: 0px;
+    width: 28.625rem;
+    margin-bottom: 0.5375rem;
+  }
+  .made-in {
+    display: none;
+  }
+  .made-in-mobile {
+    display: flex;
+    letter-spacing: 0.15px;
+    margin-right: 0.7375rem;
+  }
+  .footer-author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 }
