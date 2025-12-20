@@ -40,13 +40,24 @@ h1 {
   background-color: #fff;
   color: #292d33;
   height: 4.625rem;
+  height: 5.675rem;
+}
+.logo-dark {
+  display: none;
+}
+.navbar-light .logo-light {
+  display: none;
+}
+.navbar-light .logo-dark {
+  display: block;
+}
+.navbar-scroll {
+  height: 4.625rem;
 }
 .phone-icon {
   fill: #5c8ee6;
 }
-.logo {
-  display: none;
-}
+
 .logo-svg {
   width: 9rem;
   height: 2.75rem;
@@ -989,6 +1000,67 @@ h1 {
   letter-spacing: -0.4px;
 }
 
+/* header-about1 */
+.section-grey-about {
+  background-color: #f0f2f5;
+  margin-top: -6px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.header-title-grey {
+  font-family: "Bebas Neue", sans-serif;
+
+  font-family: "Bebas Neue";
+  font-size: 3.7rem;
+  color: #292d33;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 1.3px;
+  padding-bottom: 0.45rem;
+}
+.header-content-about-grey {
+  max-width: 60rem;
+}
+.breadcrumbs {
+  font-family: "Noto Sans", sans-serif;
+  padding-left: 0;
+  padding-bottom: 3.125rem;
+  font-size: 0.875rem;
+}
+.breadcrumbs ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.breadcrumbs li {
+  display: inline-block;
+  align-items: center;
+  font-weight: 400;
+
+  line-height: 160%;
+  color: #292d33;
+}
+.breadcrumbs li:not(:last-child)::after {
+  content: "—";
+  margin: 0 10px; /* Отступы до и после тире */
+  color: #828a99; /* Цвет тире */
+  font-size: 0.875rem; /* Размер тире */
+}
+.breadcrumbs a {
+  text-decoration: none;
+  color: #828a99;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumbs li:last-child span {
+  color: #292d33; /* Стиль для последней, некликабельной страницы */
+}
+
 @media (max-width: 1815px) {
   .header-features-item {
     padding: 1.9rem 0.9rem;
@@ -1538,9 +1610,7 @@ h1 {
     max-width: 60rem;
     margin: 0 6rem;
   }
-  .header-title {
-    font-size: 4rem;
-  }
+
   .header-content {
     padding-top: 3rem;
   }
@@ -1570,7 +1640,7 @@ h1 {
   }
   .mobile-menu-toggle {
     height: 100%;
-    padding: 1.7125rem 1.8625rem;
+    padding: 2.3125rem 1.4625rem;
   }
   .founder-content-wrapper {
     justify-content: flex-start;
@@ -1627,6 +1697,9 @@ h1 {
   .footer-policy {
     margin-right: 0;
   }
+  .container-about {
+    margin-top: 6.475rem;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1657,7 +1730,7 @@ h1 {
       "text text";
   }
   .mobile-menu-toggle {
-    padding: 1.7125rem 1.9625rem;
+    padding: 2.3125rem 1.4625rem;
   }
   .card {
     height: 46rem;
@@ -1707,6 +1780,12 @@ h1 {
   }
   .notify-text {
     font-size: 10.5px;
+  }
+  .header-title-grey {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3.7rem;
+    color: #292d33;
+    font-weight: 600;
   }
 }
 
@@ -1778,7 +1857,7 @@ h1 {
     padding-left: 0.0063rem;
   }
   .navbar {
-    height: 5.6125rem;
+    height: 5.575rem;
   }
   .navbar-button {
     padding-left: 0.64rem;
@@ -1806,7 +1885,7 @@ h1 {
     padding-top: 9.28rem;
   }
   .header-content {
-    padding-top: 0.59rem;
+    padding-top: 10.29rem;
   }
   .header-title {
     width: 21.5625rem;
@@ -2289,5 +2368,22 @@ h1 {
   }
   .modal-input-group {
     height: 5.425rem;
+  }
+  .header-title-grey {
+    margin-top: 1.425rem;
+    height: 3.35rem;
+    font-weight: 600;
+    font-size: 4rem;
+    letter-spacing: 0.5px;
+    margin-bottom: 3.3925rem;
+  }
+  .breadcrumbs {
+    padding-left: 0;
+    padding-bottom: 3.925rem;
+    font-size: 14px;
+    letter-spacing: -1.1px;
+  }
+  .breadcrumbs li:not(:last-child)::after {
+    margin: 0 11px; /* Отступы до и после тире */
   }
 }
