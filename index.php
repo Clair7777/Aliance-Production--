@@ -109,7 +109,7 @@
     </a>
     <ul class="header-nav">
       <li class="header-nav-item">
-        <a href="about.html" class="header-nav-link">О компании</a>
+        <a href="about.php" class="header-nav-link">О компании</a>
       </li>
       <li class="header-nav-item">
         <a href="#" class="header-nav-link">Контрактное производство</a>
@@ -287,7 +287,7 @@
       </div>
       <h2 class="section-title">Контрактное производство</h2>
       <div class="cards">
-        <a href="product_avtohim.html" class="card cards-prodaction">
+        <a href="product_avtohim.php" class="card cards-prodaction">
           <div class="card-content">
             <h3 class="card-title">Автомобильная химия</h3>
             <p class="card-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм
@@ -507,7 +507,7 @@
       <!-- Swiper -->
       <div class="swiper blog-slider">
         <div class="swiper-wrapper">
-          <a href="blog_more.html" class="swiper-slide blog-card">
+          <a href="blog_more.php" class="swiper-slide blog-card">
             <img src="img/blog/blog-image1.png" alt="" class="blog-card-image">
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
@@ -517,7 +517,7 @@
               степени предоставлены...
             </p>
           </a>
-          <a href="blog_more.html" class="swiper-slide blog-card">
+          <a href="blog_more.php" class="swiper-slide blog-card">
             <img src="img/blog/blog-image2.png" alt="" class="blog-card-image">
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
@@ -527,7 +527,7 @@
               Безусловно, высокотехнологичная...
             </p>
           </a>
-          <a href="blog_more.html" class="swiper-slide blog-card">
+          <a href="blog_more.php" class="swiper-slide blog-card">
             <img src="img/blog/blog-image1.png" alt="" class="blog-card-image">
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
@@ -537,7 +537,7 @@
               степени предоставлены...
             </p>
           </a>
-          <a href="blog_more.html" class="swiper-slide blog-card">
+          <a href="blog_more.php" class="swiper-slide blog-card">
             <img src="img/blog/blog-image2.png" alt="" class="blog-card-image">
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
@@ -706,7 +706,7 @@
       <div class="footer-wrapper footer-wrapper-prodaction">
         <div class="footer-legal">
           <p class="footer-copyright">
-            &copy; 2022 «Aliance Production». Все права защищены.
+            &copy; <?php echo date('d.m.Y')?> «Aliance Production». Все права защищены.
           </p>
           <a href="#" class="footer-policy">Политики конфиденциальности</a>
         </div>

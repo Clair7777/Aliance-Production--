@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <title>Blog_more</title>
+  <title>Product_avtohim</title>
 </head>
 
 <body>
@@ -109,7 +109,7 @@
     </a>
     <ul class="header-nav">
       <li class="header-nav-item">
-        <a href="/about.html" class="header-nav-link">О компании</a>
+        <a href="/about.php" class="header-nav-link">О компании</a>
       </li>
       <li class="header-nav-item">
         <a href="#" class="header-nav-link">Контрактное производство</a>
@@ -141,22 +141,23 @@
 
   </nav>
   <!-- /.navbar -->
-  <header class="header header-blog-image">
-    <div class="section section-blog-image">
-      <div class="container">
-        <div class="header-content header-blog-content">
+  <header class="header">
+    <div class="section section-grey-about">
+      <div class="container container-avtohim">
+        <div class="header-content header-content-avtohim">
           <div class="seporator"></div>
-          <h1 class="header-title header-title-image">
-            Современная методология разработки одухотворила всех причастных
+          <h1 class="header-title header-title-avtohim">
+            Автомобильная химия
           </h1>
 
-          <ol class="breadcrumbs breadcrumbs-blog">
-            <li><a href="./">Главная</a></li>
-            <li><a href="#">Блог</a></li>
-            <li>Современная методология разработки одухотворила всех причастных</li>
-          </ol>
         </div>
-
+        <ol class="breadcrumbs">
+          <li><a href="./">Главная</a></li>
+          <!-- <li><a href="/about.php">О компании</a></li> -->
+          <li><a href="#">Контрактное производство</a></li>
+          <li>Автомобильная химия</li>
+        </ol>
+        <img class="header-image-avtohim" src="/img/avto-him-header.png" alt="avtohim">
       </div>
     </div>
   </header>
