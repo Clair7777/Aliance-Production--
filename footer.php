@@ -15,6 +15,7 @@
                type="text" 
                class="input" 
                name="username"
+               autocomplete="name"
                placeholder=" " 
                maxlenght="100"
                required
@@ -30,6 +31,7 @@
               class="input" 
               placeholder=" "
               maxlenght="30"
+              
               required
             />
               <label class="input-group-label" for="user-phone">Номер телефона</label>
@@ -180,15 +182,15 @@
       <p class="modal-text">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие
         вопросы и поможем даже в самых сложных случаях!
       </p>
-      <form action="#" class="modal-form">
+      <form action="handler.php" method="POST"class="modal-form">
         <div class="input-group-wrapper input-group-vertical">
           <div class="input-group modal-input-group">
-            <input id="modal-user-name" type="text" class="input modal-input" placeholder=" " />
+            <input id="modal-user-name" type="text" class="input modal-input" placeholder=" " name="username"/>
             <label class="input-group-label modal-input-label" for="modal-user-name">Имя</label>
           </div>
           <!-- /.input-group -->
           <div class="input-group modal-input-group">
-            <input id="modal-user-phone" type="tel" class="input modal-input" placeholder=" ">
+            <input id="modal-user-phone" type="tel" class="input modal-input" name="userphone" placeholder=" ">
             <label class="input-group-label modal-input-label" for="modal-user-phone">Номер телефона</label>
           </div>
           <!-- /.input-group -->
@@ -212,6 +214,7 @@
     </div>
   </div>
   <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/just-validate.production.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
