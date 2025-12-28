@@ -165,6 +165,55 @@ forms.forEach((form) => {
       },
     ])
     .onSuccess((event) => {
-      console.log(event.target.getAttribute("method"));
+      const thisForm = event.target; // наша форма
+      const formData = new FormData(thisForm); //данные из нашей формы
+      const ajaxSend = (formData) => {
+        fetch(thisForm.getAttribute("action"), {
+          method: thisForm.getAttribute("method"),
+          body: formData,
+        }).then((response) => {
+          if (response.ok) {
+            thisForm.reset();
+            // alert("Форма отправлена!");
+            modalThanks.classList.toggle("is-open");
+          } else {
+            alert("Ошибка. Текст ошибки: ".response.statusText);
+          }
+        });
+      };
+      ajaxSend(formData);
     });
+});
+
+let elements = document.getElementsByClassName("input-phone-number");
+for (let i = 0; i < elements.length; i++) {
+  new IMask(elements[i], {
+    mask: "+{0} (000) 000-00-00",
+    eager: true,
+  });
+}
+
+const modalThanks = document.querySelector(".modal-thanks");
+const modalDialogThanks = document.querySelector(".modal-dialog-thanks");
+const modalThanksButton = document.querySelector(".modal-form-button-thanks");
+
+document.addEventListener("click", (event) => {
+  if (
+    event.target.dataset.toggle == "modal-thanks" ||
+    event.target.parentNode.dataset.toggle == "modal-thanks" ||
+    (!event.composedPath().includes(modalDialogThanks) &&
+      modalThanks.classList.contains("is-open"))
+  ) {
+    event.preventDefault();
+    modalThanks.classList.toggle("is-open");
+  }
+});
+document.addEventListener("keyup", (event) => {
+  if (event.key == "Escape" && modalThanks.classList.contains("is-open")) {
+    modalThanks.classList.toggle("is-open");
+  }
+});
+modalThanksButton.addEventListener("click", () => {
+  modalThanks.classList.toggle("is-open");
+  window.location.href = "./";
 });

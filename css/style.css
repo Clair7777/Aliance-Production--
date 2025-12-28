@@ -736,11 +736,24 @@ h1 {
   line-height: 160%;
   transition: top 0.2s, left 0.2s, font-size 0.2s;
 }
-.input:focus {
+.input:hover {
   border: 1px solid #5c8ee5;
 }
-.input:focus ~ .input-group-label,
-.input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
+.input:hover ~ .input-group-label,
+.input:not(:placeholder-shown).input:not(:hover) ~ .input-group-label {
+  top: -0.5rem;
+  left: 1.25rem;
+  font-size: 0.625rem;
+  background-color: inherit;
+  padding: 0 0.625rem;
+}
+
+.input-group-label-phone {
+  position: absolute;
+  cursor: text;
+  color: #828a99;
+  font-weight: 400;
+  line-height: 160%;
   top: -0.5rem;
   left: 1.25rem;
   font-size: 0.625rem;
@@ -935,7 +948,8 @@ h1 {
 .made-in-mobile {
   display: none;
 }
-.modal {
+.modal,
+.modal-thanks {
   opacity: 0;
   visibility: hidden;
   transform: translateX(-100%);
@@ -948,16 +962,19 @@ h1 {
   z-index: 10;
   display: flex;
 }
-.modal.is-open {
+.modal.is-open,
+.modal-thanks.is-open {
   transform: translateX(0);
   visibility: visible;
   opacity: 1;
 }
-.modal.is-open .modal-dialog {
+.modal.is-open .modal-dialog,
+.modal-thanks.is-open .modal-dialog-thanks {
   transform: translateY(0);
   opacity: 1;
 }
-.modal-dialog {
+.modal-dialog,
+.modal-dialog-thanks {
   margin: auto;
   margin-top: 171px;
   max-width: 28.75rem;
@@ -968,7 +985,8 @@ h1 {
   opacity: 0;
   transition: transform 0.3s, opacity 0.3s;
 }
-.modal-close {
+.modal-close,
+.modal-close-thanks {
   display: block;
   position: absolute;
   top: 2.5rem;
@@ -980,7 +998,8 @@ h1 {
   justify-content: center;
   border: 1px solid #ebebf0;
 }
-.modal-title {
+.modal-title,
+.modal-title-thanks {
   font-family: "Bebas Neue";
   font-style: normal;
   font-weight: 400;
@@ -991,7 +1010,8 @@ h1 {
   margin-top: 0;
   margin-bottom: 1.55rem;
 }
-.modal-text {
+.modal-text,
+.modal-text-thanks {
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -999,6 +1019,10 @@ h1 {
   letter-spacing: 0.1px;
   color: #828a99;
   margin-bottom: 1.175rem;
+}
+.modal-title-thanks {
+  margin-top: 1.375rem;
+  letter-spacing: 0.3px;
 }
 .modal-input-group {
   background-color: #fff;
@@ -1012,6 +1036,15 @@ h1 {
   display: block;
   font-size: 15.3px;
   letter-spacing: -0.4px;
+}
+.modal-form-button-thanks {
+  margin-top: 0.7125rem;
+  width: 100%;
+  letter-spacing: -1px;
+  margin-bottom: 5.2px;
+}
+.image-thanks {
+  width: 100%;
 }
 
 /* header-about */
@@ -1656,6 +1689,9 @@ h1 {
   .modal-form-button {
     width: 100%;
   }
+  .modal-form-button-thanks {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1735,7 +1771,7 @@ h1 {
   }
   .cta-form-button {
     margin-bottom: 1.25rem;
-    width: 21rem;
+    width: 100%;
     height: 4rem;
   }
   .footer-bottom {
@@ -1957,7 +1993,6 @@ h1 {
   }
   .header-title {
     width: 21.5625rem;
-    /* height: 26.35rem; */
     margin: 1.2rem 0.075rem 4rem 0.025rem;
     font-size: 4.1rem;
     font-style: normal;
@@ -2048,7 +2083,8 @@ h1 {
     width: 8.275rem;
   }
   .button-detail {
-    width: 28.7625rem;
+    /* width: 28.7625rem; */
+    width: 100%;
     height: 5.05rem;
     align-items: center;
     display: inline-block;
@@ -2297,7 +2333,7 @@ h1 {
   }
   .cta-form-button {
     height: 5.075rem;
-    width: 28.8rem;
+    width: 100%;
     font-size: 14px;
     letter-spacing: 0px;
     word-spacing: 0.7488px;
@@ -2325,7 +2361,7 @@ h1 {
   .footer-phone-number {
     font-size: 28.1px;
     margin-bottom: 1.5812rem;
-    width: 18.75rem;
+    width: 100%;
   }
   .footer-info {
     gap: 0.8438rem;
@@ -2386,7 +2422,7 @@ h1 {
   }
   .footer-copyright {
     margin-top: 0px;
-    width: 28.625rem;
+    width: 100%;
     margin-bottom: 0.5375rem;
   }
   .made-in {
@@ -2413,7 +2449,6 @@ h1 {
     font-size: 3.19rem;
     letter-spacing: 1px;
   }
-
   .modal-close {
     top: 2.6rem;
     right: 2.625rem;
@@ -2493,5 +2528,58 @@ h1 {
   .breadcrumbs-blog li {
     line-height: 180%;
     letter-spacing: 0.1px;
+  }
+  .modal-close-thanks {
+    right: 2.625rem;
+    height: 3.325rem;
+  }
+  .modal-dialog-thanks {
+    padding-top: 2.375rem;
+    padding-left: 2.375rem;
+    padding-right: 2.6125rem;
+  }
+  .image-thanks {
+    height: 20.6375rem;
+    width: 103.1%;
+    padding-right: 5.4px;
+  }
+  .modal-title-thanks {
+    font-size: 3.29rem;
+    margin-top: 1.075rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .modal-text-thanks {
+    margin-top: -4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 152.7%;
+    letter-spacing: 0.1px;
+  }
+  .modal-form-button-thanks {
+    margin-right: 2px;
+    margin-bottom: 0.275rem;
+  }
+}
+
+@media (max-width: 286px) {
+  .header-title-grey {
+    width: 100%;
+  }
+  .footer-phone-number {
+    font-size: 1.5625rem;
+    margin-right: 0;
+  }
+  .footer-menu-title {
+    width: 100%;
+  }
+  .footer-menu-column-2 {
+    width: 100%;
+  }
+  .footer-menu-link {
+    width: 100%;
+  }
+  .footer-bottom {
+    padding-right: 1px;
   }
 }

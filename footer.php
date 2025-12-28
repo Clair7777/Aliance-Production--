@@ -25,16 +25,15 @@
             <!-- /.input-group -->
             <div class="input-group">
               <input 
-              id="user-phone" 
-              type="tel" 
-              name="userphone"
-              class="input" 
-              placeholder=" "
-              maxlenght="30"
-              
-              required
-            />
-              <label class="input-group-label" for="user-phone">Номер телефона</label>
+                class="input input-phone-number" 
+                type="tel" 
+                id="user-phone" 
+                name="userphone"
+                maxlenght="30"
+                pattern="^\+\d \(\d{3}\) \d{3}-\d{2}-\d{2}$"
+                required placeholder="+_ (___) ___-__-__" 
+               >
+              <label class="input-group-label-phone" for="user-phone">Номер телефона</label>
             </div>
             <!-- /.input-group -->
           </div>
@@ -190,8 +189,18 @@
           </div>
           <!-- /.input-group -->
           <div class="input-group modal-input-group">
-            <input id="modal-user-phone" type="tel" class="input modal-input" name="userphone" placeholder=" ">
-            <label class="input-group-label modal-input-label" for="modal-user-phone">Номер телефона</label>
+            <!-- <input id="modal-user-phone" type="tel" class="input modal-input" name="userphone" placeholder=" ">
+            <label class="input-group-label modal-input-label" for="modal-user-phone">Номер телефона</label> -->
+             <input 
+                class="input input-phone-number" 
+                type="tel" 
+                id="user-phone" 
+                name="userphone"
+                maxlenght="30"
+                pattern="^\+\d \(\d{3}\) \d{3}-\d{2}-\d{2}$"
+                required placeholder="+_ (___) ___-__-__" 
+               >
+              <label class="input-group-label-phone" for="user-phone">Номер телефона</label>
           </div>
           <!-- /.input-group -->
         </div>
@@ -213,8 +222,34 @@
       </form>
     </div>
   </div>
+
+
+  <div class="modal-thanks">
+    
+    <div class="modal-dialog-thanks">
+      <img src="img/thanks.png" alt="thanks" class="image-thanks">
+      <a href="#" class="modal-close-thanks" data-toggle="modal-thanks">
+        <svg class="close-icon" width="24" height="24">
+          <use href="img/sprite.svg#close"></use>
+        </svg>
+      </a>
+      <h2 class="modal-title-thanks">Спасибо за заявку</h2>
+      
+      <p class="modal-text-thanks">Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие 
+        вопросы и поможем даже в самых сложных случаях!
+      </p>
+      <button type="button" class="button cta-form-button modal-form-button-thanks" 
+      >
+            Вернуться на главную
+      </button>
+
+
+    </div>
+  </div>
+
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/just-validate.production.min.js"></script>
+  <script src="js/imask.js"></script>
   <script src="js/main.js"></script>
 </body>
 
