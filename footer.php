@@ -25,7 +25,7 @@
             <!-- /.input-group -->
             <div class="input-group">
               <input 
-                class="input input-phone-number" 
+                class="input phone-mask" 
                 type="tel" 
                 id="user-phone" 
                 name="userphone"
