@@ -132,7 +132,7 @@
       <a href="tel:+74996861014" class="header-phone-link">+7 (499) 686-10-14</a>
 
     </div>
-    <button class="navbar-button button input-phone-number" data-toggle="modal">
+    <button class="navbar-button button input-phone-number" data-toggle="modal" data-target="#feedback-modal">
       <svg class="button-icon" width="24" height="24">
         <use href="img/sprite.svg#phone"></use>
       </svg>
@@ -152,7 +152,7 @@
           Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта:
           высококачественный прототип будущего проекта напрямую зависит от анализа существующих паттернов поведения.
         </p>
-        <div class="button button-detail" data-toggle="modal">
+        <div class="button button-detail" data-toggle="modal" data-target="#feedback-modal">
           Подробнее о компании
         </div>
       </div>
