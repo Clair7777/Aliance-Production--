@@ -1,62 +1,6 @@
- <section class="cta">
-    <div class="bg-grey section-cta <?= $for_section_blog;?>">
-      <img src="img/cta.png" alt="call to action" class="cta-image">
-      <div class="cta-form-wrapper container">
-        <form action="handler.php" method="POST" class="cta-form">
-          <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
-          <p class="cta-form-text cta-section-text">
-            Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и
-            поможем даже в самых сложных случаях!
-          </p>
-          <div class="input-group-wrapper">
-            <div class="input-group">
-              <input
-               id="user-name" 
-               type="text" 
-               class="input" 
-               name="username"
-               autocomplete="name"
-               placeholder=" " 
-               maxlenght="100"
-               required
-              />
-              <label class="input-group-label" for="user-name">Имя</label>
-            </div>
-            <!-- /.input-group -->
-            <div class="input-group">
-              <input 
-                class="input phone-mask" 
-                type="tel" 
-                id="user-phone" 
-                name="userphone"
-                maxlenght="30"
-                pattern="^\+\d \(\d{3}\) \d{3}-\d{2}-\d{2}$"
-                required placeholder="+_ (___) ___-__-__" 
-               >
-              <label class="input-group-label-phone" for="user-phone">Номер телефона</label>
-            </div>
-            <!-- /.input-group -->
-          </div>
-          <!-- /.input-group-wrapper -->
-          <div class="cta-form-footer">
-            <button type="submit" class="button cta-form-button">
-              Отправить заявку
-            </button>
-            <div class="notify">
-              <svg class="notify-icon" width="14" height="14">
-                <use href="img/sprite.svg#shield"></use>
-              </svg>
-              <p class="notify-text">
-                Обращаясь к нам вы получаете не только профессиональную работу, но и абсолютную конфиденциальность
-                информации!
-              </p>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </section>
-  <footer class="footer">
+
+<footer class="footer">
+  <hr color="#ebebf0" class="footer-seporator footer-seporator-one">
     <div class="container">
       <div class="footer-top">
         <svg class="logo-svg footer-logo">
@@ -139,7 +83,7 @@
               <a href="./about.php" class="footer-menu-link footer-menu-link-bold">О компании</a>
             </li>
             <li class="footer-menu-item">
-              <a href="./404.php" class="footer-menu-link footer-menu-link-bold">Новости</a>
+              <a href="#" class="footer-menu-link footer-menu-link-bold">Новости</a>
             </li>
             <li class="footer-menu-item">
               <a href="./contacts.php" class="footer-menu-link footer-menu-link-bold">Контакты</a>
@@ -223,20 +167,7 @@
     </div>
   </div>
 
-  <!-- <div class="modal" id="alert-modal">
-    <div class="modal-dialog">
-      <h2 class="modal-title">Спасибо</h2>
-      <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
-        <svg class="close-icon" width="24" height="24">
-          <use href="img/sprite.svg#close"></use>
-        </svg>
-      </a>
-      <p class="modal-text">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие
-        вопросы и поможем даже в самых сложных случаях!
-      </p>
-   
-    </div>
-  </div> -->
+
 
 
   <div class="modal" id="alert-modal">
@@ -256,7 +187,6 @@
       >
             Вернуться на главную
       </button>
-
 
     </div>
   </div>

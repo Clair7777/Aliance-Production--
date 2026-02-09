@@ -105,6 +105,7 @@ const swiperSteps = new Swiper(".swiper.swiper-steps", {
 
 const swiperBlog = new Swiper(".swiper.blog-slider", {
   speed: 400,
+
   slidesPerView: 1,
   spaceBetween: 30,
   navigation: {
@@ -120,6 +121,45 @@ const swiperBlog = new Swiper(".swiper.blog-slider", {
     },
   },
 });
+
+const swiperAbout = new Swiper(".swiper.blog-about", {
+  speed: 400,
+
+  slidesPerView: 1,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".blog-button-next",
+    prevEl: ".blog-button-prev",
+  },
+  breakpoints: {
+    992: {
+      slidesPerView: 2,
+    },
+  },
+});
+
+const swiperBlogBig = new Swiper(".swiper.swiper-big-blog", {
+  speed: 400,
+  autoHeight: true,
+  slidesPerView: 2,
+  spaceBetween: 30,
+  grid: {
+    rows: 5,
+  },
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    renderBullet: function (index, className) {
+      return '<span class="' + className + '">' + (index + 1) + "</span>";
+    },
+  },
+});
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+// });
 
 let currentModal; // текущее модальное окно
 let modalDialog; // белое диалоговое окно
