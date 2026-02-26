@@ -1,6 +1,7 @@
 <?php 
 $page_title = 'Контрактное производство';
 $header_style = 'section-grey-about';
+$breadcrumbs_two_strings = 'breadcrumbs-two-strings';
 include_once('header-page.php');?>
 <?php 
 $section_product = "section-product";

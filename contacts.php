@@ -2,8 +2,8 @@
 $page_title = 'Контакты';
 $header_style = 'section-grey-about';?>
 <?php include_once('header-page.php')?>
-
-<div class="container">
+<section class="section-contacts">
+  <div class="container">
       <div class="footer-top-contacts">
         <a href="tel:+79996861014" class="footer-phone-number-contacts">+7 (499) 686-10-14</a>
         <div class="footer-info footer-info-add-contacts">
@@ -35,7 +35,10 @@ $header_style = 'section-grey-about';?>
         </div>
       </div>
       <img src="img/map.png" alt="map" class="map-contacts-image">
-</div>
+  </div>
+</section>
+
+
 
 
 <?php include_once('footer.php')?>

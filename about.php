@@ -30,7 +30,7 @@ $swiper_border_about = "border-about-arrow";
 $about_company_seporator = "about-company-seporator";
 $arrow_next = "arrow-next-grey";
 $arrow_prev = "arrow-prev-grey";
-
+$swiper_container = "swiper-container";
 
   include_once('./template-parts/swiper-features.php')
 ?>
@@ -100,8 +100,15 @@ $arrow_prev = "arrow-prev-grey";
   </section>
 
 
-  <?php include_once('./template-parts/section-founder.php')?>
-  <?php include_once('./template-parts/section-explorer.php')?>
+  <?php 
+    $founder_content_about = "founder-content-about";
+    $section_founder_about = "section-founder-about-mt";
+    $founder_photo_about = "founder-photo-about";
+   include_once('./template-parts/section-founder.php')
+  ?>
+  <?php 
+    $section_explorer = "section-explorer-mt";
+  include_once('./template-parts/section-explorer.php')?>
 
   <!-- <section class="section explorer">
   <div class="container">
@@ -181,7 +188,12 @@ $arrow_prev = "arrow-prev-grey";
 
 
 
-<?php include_once('./template-parts/section-clients.php')?>
+<?php 
+  $clients_about  = "clients-about";
+include_once('./template-parts/section-clients.php')
+  ?>
 
-<?php include_once('footer.php')?>
+<?php 
+  $footer_seporator_for_about = "footer-seporator-for-about";
+include_once('footer.php')?>
 

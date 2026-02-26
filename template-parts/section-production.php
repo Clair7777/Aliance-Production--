@@ -1,4 +1,4 @@
-<section class="section production section-contract-product <?= $section_product;?>">
+<section class="section production <?= $section_product;?>">
     <div class="container">
       <!-- <div class="seporator">
       </div>

@@ -62,7 +62,7 @@ const swiper = new Swiper(".swiper.swiper-features", {
       slidesPerView: 3,
     },
     // when window width is >= 640px
-    1024: {
+    1100: {
       slidesPerView: 4,
     },
     // when window width is >= 1200px
@@ -116,7 +116,7 @@ const swiperBlog = new Swiper(".swiper.blog-slider", {
     350: {
       slidesPerView: 1,
     },
-    500: {
+    768: {
       slidesPerView: 2,
     },
   },
@@ -135,18 +135,30 @@ const swiperAbout = new Swiper(".swiper.blog-about", {
     992: {
       slidesPerView: 2,
     },
+    768: {
+      slidesPerView: 1,
+    },
   },
 });
 
 const swiperBlogBig = new Swiper(".swiper.swiper-big-blog", {
   speed: 400,
   autoHeight: true,
-  slidesPerView: 2,
+  slidesPerView: 1,
   spaceBetween: 30,
   grid: {
-    rows: 5,
+    rows: 10,
   },
-
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+      grid: {
+        // Перенеси grid внутрь breakpoints
+        rows: 5,
+        // fill: 'row'
+      },
+    },
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -155,6 +167,7 @@ const swiperBlogBig = new Swiper(".swiper.swiper-big-blog", {
     },
   },
 });
+
 //   pagination: {
 //     el: ".swiper-pagination",
 //     clickable: true,

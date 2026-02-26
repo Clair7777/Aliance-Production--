@@ -3,6 +3,7 @@
   $header_style = 'section-grey-about';
   $breadcrumbs_three = 'href="./contract_product.php">Контрактное производство';
   $header_grey_spray = 'class="header-image-avtohim" src="/img/avto-him-header.png" alt="avtohim"';
+  $breadcrumbs_two_strings = 'breadcrumbs-two-strings';
   $container_avtohim_relative = 'container-avtohim';
 include_once('header-page.php');
 ?>
@@ -10,10 +11,11 @@ include_once('header-page.php');
 
 
 <section class="section founder contract-product-avtohim">
-    <img src="img/product-avtohim.png" alt="product-avtohim" class="founder-photo founder-photo-about product-avtohim-photo">
     <div class="container">
+      
       <div class="founder-content-wrapper product-avtohim-content-wrp">
-        <div class="founder-content product-avtohim-content">
+        <img src="img/product-avtohim.png" alt="product-avtohim" class="founder-photo-about product-avtohim-photo">
+        <div class="product-avtohim-content">
           <div class="seporator"></div>
           <h2 class="section-title founder-title product-avtohim-title">Контрактное производство автомобильной химии</h2>
           <p class="founder-text product-avtohim-text">
@@ -42,19 +44,20 @@ include_once('header-page.php');
     $about_company_seporator = "about-company-seporator";
     $arrow_next = "arrow-next-grey";
     $arrow_prev = "arrow-prev-grey";
+    $swiper_container = "swiper-container";
 include_once('./template-parts/swiper-features.php')
 ?>
 
-<section class="section production section-production-avtohim">
-  <img src="img/woman_look.png" alt="wooman_look" class="woman-look-photo">
+<section class="section section-production-avtohim">
   <div class="container">
-    <div class="production-content-wrapper">
-      <!-- <div class="seporator production-title-top-seporator"></div>
-        <h2 class="section-title production-title production-title-top">Изготовление автохимии</h2> -->
-      <div class="production-content production-content-avtohim">
+    <div class="production-content-wrp-avtohim">
+      
+      <div class="production-content-avtohim">
+        <div class="seporator production-title-top-seporator"></div>
+        <!-- <h2 class="section-title production-title production-title-top">Изготовление автохимии</h2> -->
         <div class="seporator production-title-bottom-seporator"></div>
-        <h2 class="section-title production-title production-title-bottom production-tittle-avtohim">Изготовление автохимии</h2>
-        <p class="founder-text production-text production-text-avtohim">
+        <h2 class="section-title production-title-avtohim">Изготовление автохимии</h2>
+        <p class="production-text-avtohim">
           Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем 
           задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны 
           быть ассоциативно распределены по отраслям. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие 
@@ -115,92 +118,92 @@ include_once('./template-parts/swiper-features.php')
       </div>
     </div>
   </div>
+  <img src="img/woman_look.png" alt="wooman_look" class="woman-look-photo">
 </section>
 
 <section class="section section-type-avtohim">
-<div class="container container-type-avtohim">
-  <div class="production-content-wrapper type-avtohim-wrapper">
-    <div class="seporator production-title-top-seporator"></div>
-      <h2 class="section-title production-title production-title-top">Виды автохимии</h2>
-    <div class="production-content content-type-avtohim">
-      <div class="seporator production-title-bottom-seporator"></div>
-      <h2 class="section-title production-title production-title-bottom">Виды автохимии</h2>
-      <p class="founder-text type-avtohim-text">
-        Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем 
-        задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны 
-        быть ассоциативно распределены по отраслям.
-      </p>
+  <div class="container container-type-avtohim">
+    <div class="production-content-wrapper type-avtohim-wrapper">
+      <div class="production-title-top-seporator"></div>
+        <h2 class="section-title production-title production-title-top">Виды автохимии</h2>
+      <div class="production-content content-type-avtohim">
+        <div class="seporator production-title-bottom-seporator"></div>
+        <h2 class="section-title production-title production-title-bottom">Виды автохимии</h2>
+        <p class="founder-text type-avtohim-text">
+          Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем 
+          задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны 
+          быть ассоциативно распределены по отраслям.
+        </p>
+      </div>
+      
+    </div>
+    <div class="menu-list-avtohim-wrapper">
+      <ul class="footer-menu-list menu-list-avtohim">
+          <li class="footer-menu-item menu-item-avtohim">
+            Антискотч
+          </li>
+          <li class="footer-menu-item menu-item-avtohim">
+            Многоцелевая смазка
+          </li>
+          <li class="footer-menu-item menu-item-avtohim">
+            Жидкий ключ
+          </li>
+          <li class="footer-menu-item menu-item-avtohim">
+            Высокотемпературная смазка
+          </li>
+          <li class="footer-menu-item menu-item-avtohim">
+            Универсальный очиститель деталей
+          </li>
+          <li class="footer-menu-item menu-item-avtohim">
+            Силиконовая смазка
+          </li>
+          <li class="footer-menu-item menu-item-avtohim">
+            Цепная смазка
+          </li>
+          <li class="footer-menu-item menu-item-avtohim">
+            Медная смазка
+          </li>
+          <li class="footer-menu-item menu-item-avtohim">
+            Графитовая смазка
+          </li>
+          <li class="footer-menu-item menu-item-avtohim">
+            Очиститель кондиционера пенный
+          </li>
+          <li class="footer-menu-item menu-item-avtohim">
+            Очиститель тормозных дисков
+          </li>
+          <li class="footer-menu-item menu-item-avtohim">
+            Очиститель битумных пятен
+          </li>
+          <li class="footer-menu-item menu-item-avtohim">
+            Очиститель кондционера
+          </li>
+          <li class="footer-menu-item menu-item-avtohim">
+            Очиститель дросельной заслонки
+          </li>
+          <li class="footer-menu-item menu-item-avtohim">
+            Очиститель обивки 
+          </li>
+          <li class="footer-menu-item menu-item-avtohim">
+            Тефлоновая смазка
+          </li>
+          <li class="footer-menu-item menu-item-avtohim">
+            Очиститель двигателя
+          </li>
+          <li class="footer-menu-item menu-item-avtohim">
+            Универсальный очиститель
+          </li>
+          <li class="footer-menu-item menu-item-avtohim">
+            Чернитель шин 
+          </li>
+          <li class="footer-menu-item menu-item-avtohim">
+            Чернитель шин + очистка
+          </li>
+        </ul>
     </div>
     
   </div>
-  <div class="menu-list-avtohim-wrapper">
-    <ul class="footer-menu-list menu-list-avtohim">
-        <li class="footer-menu-item menu-item-avtohim">
-          Антискотч
-        </li>
-        <li class="footer-menu-item menu-item-avtohim">
-          Многоцелевая смазка
-        </li>
-        <li class="footer-menu-item menu-item-avtohim">
-          Жидкий ключ
-        </li>
-        <li class="footer-menu-item menu-item-avtohim">
-          Высокотемпературная смазка
-        </li>
-        <li class="footer-menu-item menu-item-avtohim">
-          Универсальный очиститель деталей
-        </li>
-        <li class="footer-menu-item menu-item-avtohim">
-          Силиконовая смазка
-        </li>
-        <li class="footer-menu-item menu-item-avtohim">
-          Цепная смазка
-        </li>
-        <li class="footer-menu-item menu-item-avtohim">
-          Медная смазка
-        </li>
-        <li class="footer-menu-item menu-item-avtohim">
-          Графитовая смазка
-        </li>
-        <li class="footer-menu-item menu-item-avtohim">
-          Очиститель кондиционера пенный
-        </li>
-        <li class="footer-menu-item menu-item-avtohim">
-          Очиститель тормозных дисков
-        </li>
-        <li class="footer-menu-item menu-item-avtohim">
-          Очиститель битумных пятен
-        </li>
-        <li class="footer-menu-item menu-item-avtohim">
-          Очиститель кондционера
-        </li>
-        <li class="footer-menu-item menu-item-avtohim">
-          Очиститель дросельной заслонки
-        </li>
-        <li class="footer-menu-item menu-item-avtohim">
-          Очиститель обивки 
-        </li>
-        <li class="footer-menu-item menu-item-avtohim">
-          Тефлоновая смазка
-        </li>
-        <li class="footer-menu-item menu-item-avtohim">
-          Очиститель двигателя
-        </li>
-        <li class="footer-menu-item menu-item-avtohim">
-          Универсальный очиститель
-        </li>
-        <li class="footer-menu-item menu-item-avtohim">
-          Чернитель шин 
-        </li>
-        <li class="footer-menu-item menu-item-avtohim">
-          Чернитель шин + очистка
-        </li>
-      </ul>
-  </div>
-  
-</div>
-</section>
-    
+</section>  
     
         
 <?php 
@@ -212,4 +215,6 @@ include_once('./template-parts/section-light.php')?>
 <?php 
   $section_clients = 'section-clients-mt';
 include_once('./template-parts/section-clients.php')?>
-<?php include_once('footer.php');?>
+<?php 
+ $for_section_avtohim = "for-section-avtohim";
+ include_once('footer.php');?>

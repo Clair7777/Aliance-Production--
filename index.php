@@ -47,10 +47,10 @@
         <a href="./own_product.php" class="mobile-menu-link">Собственные марки</a>
         <ul class="mobile-submenu">
           <li class="mobile-submenu-item">
-            <a class="mobile-submenu-link" href="#">Автохимия AG-Tech</a>
+            <a class="mobile-submenu-link" href="./product_ag-tech.php">Автохимия AG-Tech</a>
           </li>
           <li class="mobile-submenu-item">
-            <a class="mobile-submenu-link" href="#">Автохимия AP</a>
+            <a class="mobile-submenu-link" href="./product_avtohim.php">Автохимия AP</a>
           </li>
         </ul>
       </li>
@@ -58,7 +58,7 @@
         <a href="#" class="mobile-menu-link">Новости</a>
       </li>
       <li class="mobile-menu-nav-item">
-        <a href="#" class="mobile-menu-link">Контакты</a>
+        <a href="./contacts.php" class="mobile-menu-link">Контакты</a>
       </li>
     </ul>
     <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
@@ -178,7 +178,7 @@
 
   <?php 
      $production_title = "Контрактное производство";
-     include_once('./template-parts/section-production.php')?>
+       include_once('./template-parts/section-production.php')?>
 
   <?php 
     $block_title = "собственные торговые марки"; 

@@ -323,5 +323,6 @@ $header_style = 'section-grey-about';?>
 
 <?php
 $for_section_blog = "for-section-blog-margin";
+ $footer_seporator_for_about = "footer-seporator-for-about";
 include_once('footer.php')?>
 

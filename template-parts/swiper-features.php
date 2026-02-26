@@ -1,4 +1,4 @@
-  <div class="container">
+  <div class="swiper-container <?= $swiper_container ?>">
    <div class="swiper swiper-features swiper-experts">
         <!-- обертка слайдера -->
         <ul class="swiper-wrapper header-features <?= $swiper_text ?>">

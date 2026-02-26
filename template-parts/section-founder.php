@@ -1,8 +1,8 @@
-<section class="section founder">
-    <img src="img/founder.jpg" alt="founder" class="founder-photo founder-photo-about">
+<section class="section founder <?= $section_founder_about;?>">
+    <img src="img/founder.jpg" alt="founder" class="founder-photo <?= $founder_photo_about;?>">
     <div class="container">
       <div class="founder-content-wrapper">
-        <div class="founder-content">
+        <div class="founder-content <?= $founder_content_about;?>">
           <div class="seporator"></div>
           <h2 class="section-title founder-title">Отношение к делу<br>и к клиентам</h2>
           <p class="founder-text">

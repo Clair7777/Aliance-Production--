@@ -1,7 +1,10 @@
 <?php 
-$page_title = 'Политика конфиденциальности';
-$header_style = 'section-grey-about';?>
-<?php include_once('header-page.php')?>
+ $page_title = 'Политика конфиденциальности';
+ $header_style = 'section-grey-about';?>
+<?php 
+ $breadcrumbs_for_contacts = "breadcrumbs-for-politics";
+ $header_title_politics = "header-title-politics";
+  include_once('header-page.php')?>
 
 
 <section section-politics>

@@ -3,6 +3,7 @@
   $page_title = 'Автохимия AG-Tech';
   $header_style = 'section-grey-about';
   $breadcrumbs_three = 'href="./own_product.php">Собственные торговые марки';
+  $breadcrumbs_for_ag_tech = "breadcrumbs-for-ag-tech";
   $header_grey_spray = 'class="header-image-avtohim" src="/img/avto-him-header.png" alt="avtohim"';
  include_once('header-page.php');?>
 
@@ -10,15 +11,15 @@
 <section class="section experts">
     <div class="container">
       <div class="experts-content-wrapper avtohim-ag-tech-wrapper">
-        <img src="img/avtohim-AG-tech.png" alt="avtohim-ag-tech" class="experts-photo avtohim-ag-tech-photo">
+        <img src="img/avtohim-AG-tech.png" alt="avtohim-ag-tech" class="avtohim-ag-tech-photo">
         <div class="experts-content avtohim-ag-tech-content">
           <div class="seporator"></div>
           <h2 class="section-title experts-title avtohim-ag-tech-title">Собственное производство автохимия AG-Tech</h2>
-          <p class="experts-text avtohim-ag-tech-text">
+          <p class="avtohim-ag-tech-text">
            Прежде всего, начало повседневной работы по формированию позиции однозначно фиксирует необходимость приоритизации разума 
             над эмоциями. Кстати, представители современных социальных резервов неоднозначны и будут описаны максимально подробно.
           </p>
-          <p class="experts-text avtohim-ag-tech-text-two avtohim-ag-tech-text-two">
+          <p class="avtohim-ag-tech-text avtohim-ag-tech-text-two">
             Но социально-экономическое развитие напрямую зависит от поставленных обществом задач! Безусловно, постоянный количественный 
             рост и сфера нашей активности предоставляет широкие возможности для системы обучения кадров, соответствующей насущным 
             потребностям. В целом, конечно, выбранный нами инновационный путь обеспечивает широкому кругу (специалистов) участие в 
@@ -45,18 +46,16 @@ $arrow_prev = "arrow-prev-grey";
   include_once('./template-parts/swiper-features.php')
 ?>
 
-<section class="section production section-product-ag-tech">
-  <img src="img/distributor.png" alt="distributor" class="woman-look-photo distributor-photo">
+<section class="section section-product-ag-tech">
+  
   <div class="container">
     <div class="production-content-wrapper product-ag-tech-content-wrp">
-      
       <div class="product-ag-tech-content">
-        
         <div class="seporator production-title-bottom-seporator"></div>
-        <h2 class="section-title production-title production-title-bottom production-tittle-avtohim product-ag-tech-title">Генеральный дистрибьютор премиальной
+        <h2 class="section-title product-ag-tech-title">Генеральный дистрибьютор премиальной
           автохимии
         </h2>
-        <p class="founder-text production-text production-text-avtohim product-ag-tech-text">
+        <p class="product-ag-tech-text">
           Внезапно, активно развивающиеся страны третьего мира могут быть объявлены нарушающими общечеловеческие нормы этики и морали.
         </p>
         <ul class="clients-list clients-list-product">
@@ -86,14 +85,15 @@ $arrow_prev = "arrow-prev-grey";
               Химические производства
             </li>
         </ul>
-        <button type="submit" class="button cta-form-button button-ag-tech">
-          <svg width="30" height="30" class="clients-list-icon download-icon-ag-tech">
+        <button type="submit" class="button button-ag-tech">
+          <svg width="24" height="24" class="clients-list-icon download-icon-ag-tech">
             <use href="img/sprite.svg#download"></use>
           </svg>Скачать каталог
         </button>
       </div>
     </div>
   </div>
+  <img src="img/distributor.png" alt="distributor" class="distributor-photo">
 </section>
 
 
@@ -101,6 +101,7 @@ $arrow_prev = "arrow-prev-grey";
  include_once('./template-parts/section-explorer.php');?> 
 
 <?php 
+$section_product_ag_tech_light = "section-product-ag-tech-light";
  include_once('./template-parts/section-light.php');?> 
 
 <?php 

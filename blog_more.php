@@ -141,7 +141,9 @@
 
   </nav>
   <!-- /.navbar -->
-  <header class="header header-blog-image">
+  <header class="header header-blog-image <?= $header_bloge_image_mt;?>">
+  <?php 
+       $header_bloge_image_mt = "header-bloge-image-mt"?> 
     <div class="section section-blog-image">
       <div class="container">
         <div class="header-content header-blog-content">
@@ -248,7 +250,7 @@
           <h2 class=" blog-more-title-two">Равным образом консультация с широким активом</h2>
           <p class="experts-text blog-more-text-three">
             С другой стороны рамки и место обучения кадров влечет за собой процесс внедрения и модернизации систем массового участия. 
-            Равным образом консультация с широким активом в значительной степени обуславливает создание дальнейших направлений развития. 
+            <b>Равным образом консультация</b> с широким активом в значительной степени обуславливает создание дальнейших направлений развития. 
             Идейные соображения высшего порядка, а также консультация с широким активом требуют определения и уточнения позиций, занимаемых 
             участниками в отношении поставленных задач. Равным образом дальнейшее развитие различных форм деятельности влечет за собой 
             процесс внедрения и модернизации дальнейших направлений развития.
@@ -336,4 +338,6 @@
   </section>
 
 
-  <?php include_once('footer.php')?>
+  <?php 
+  $for_section_blog_more = "for-section-blog-more";
+  include_once('footer.php')?>

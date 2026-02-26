@@ -1,5 +1,5 @@
 
-<section class="section explorer  <?= $section_avtohim ?>">
+<section class="section section-explorer <?= $section_explorer;?> <?= $section_avtohim;?>">
   <div class="container">
     <div class="explorer-content-wrapper">
       <div class="explorer-content">

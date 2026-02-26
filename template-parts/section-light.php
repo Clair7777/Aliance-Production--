@@ -1,4 +1,4 @@
-<section class="section section-light <?= $section_light ?>">
+<section class="section section-light <?= $section_product_ag_tech_light ?> <?= $section_light ?>">
     <div class="container">
       <div class="seporator">
       </div>

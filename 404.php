@@ -4,8 +4,8 @@
   $not_found = "not-found";
 include_once('header-page.php');
 ?>
-<section class="section">
-  <div class="container">
+<section class="section-not-found">
+  <div class="container-not-found">
       <div class="not-found-wrapper"> 
         <p class="not-found-number">
           404
@@ -13,15 +13,13 @@ include_once('header-page.php');
         <div class="not-found-text-wrp">
           <div class="not-found-txt">Страница не найдена</div>
           <p class="not-found-text">
-            Мы не смогли найти страницу с таким адресом, попробуйте перейти на главную или напишите нам.
+          Мы не смогли найти страницу с таким адресом, попробуйте перейти на главную или напишите нам.
           </p>
-          <div class="cta-form-footer">
-            <button type="submit" class="button not-found-button">
+          <button type="button" class="button not-found-button">
               <a href="./" class="button return-main">
                 Вернуться на главную
               </a>
             </button>
-          </div>
       </div>
   </div>
 </section>

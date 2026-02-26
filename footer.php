@@ -1,5 +1,5 @@
  <section class="cta">
-    <div class="bg-grey section-cta <?= $for_section_blog;?>">
+    <div class="bg-grey section-cta <?= $for_section_avtohim;?> <?= $for_section_own_product;?> <?= $for_section_blog;?> <?= $for_section_blog_more;?>">
       <img src="img/cta.png" alt="call to action" class="cta-image">
       <div class="cta-form-wrapper container">
         <form action="handler.php" method="POST" class="cta-form">
@@ -92,7 +92,7 @@
         </div>
       </div>
     </div>
-    <hr color="#ebebf0" class="footer-seporator footer-seporator-one" />
+    <hr color="#ebebf0" class="footer-seporator footer-seporator-one <?= $footer_seporator_for_about;?>" />
     <div class="container">
       <div class="footer-bottom footer-bottom-about">
         <div class="footer-menu-wrapper">

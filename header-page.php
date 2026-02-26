@@ -142,16 +142,16 @@
   </nav>
   <!-- /.navbar -->
   <header class="header-about">
-    <div class="<?= $header_style;?>">
+    <div class="<?= $header_style;?> <?= $header_about_own_product;?>">
     <!-- <div class="section <?= $header_style;?>"> -->
       <div class="container container-about <?= $container_avtohim_relative;?>">
         <div class="header-content header-content-grey">
           <div class="seporator"></div>
-          <h1 class="header-title header-title-grey title-grey-about">
+          <h1 class="header-title header-title-grey title-grey-about <?= $header_title_politics;?>">
             <?= $page_title ?>
           </h1>
         </div>
-        <ol class="breadcrumbs breadcrumbs-contract-production <?= $not_found;?>">
+        <ol class="breadcrumbs <?= $breadcrumbs_two_strings;?> <?= $breadcrumbs_for_ag_tech;?> <?= $not_found;?> <?= $breadcrumbs_for_contacts;?>">
           <li><a href="./">Главная</a></li>
           <!-- <li><a href="/about.php">О компании</a></li> -->
           <?php 
