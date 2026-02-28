@@ -6,7 +6,11 @@
     <div class="swiper blog-slider">
       <div class="swiper-wrapper">
         <a href="blog_more.php" class="swiper-slide blog-card">
-          <img src="img/blog/blog-image1.png" alt="" class="blog-card-image">
+          <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image1.webp">
+              <source type="image/png" srcset="img/blog/blog-image1.png">
+              <img src="img/blog/blog-image1.png" alt="blog-image" class="blog-card-image">
+          </picture>
           <h3 class="blog-card-title">
              Современная методология разработки одухотворила всех причастных
           </h3>
@@ -16,7 +20,11 @@
           </p>
         </a>
         <a href="blog_more.php" class="swiper-slide blog-card">
-          <img src="img/blog/blog-image2.png" alt="" class="blog-card-image">
+          <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image2.webp">
+              <source type="image/png" srcset="img/blog/blog-image2.png">
+              <img src="img/blog/blog-image2.png" alt="blog-image" class="blog-card-image">
+          </picture>
           <h3 class="blog-card-title">
             Сложно сказать, почему жизнь прекрасна
           </h3>
@@ -26,28 +34,35 @@
           </p>
         </a>
         <a href="blog_more.php" class="swiper-slide blog-card">
-            <img src="img/blog/blog-image1.png" alt="" class="blog-card-image">
-            <h3 class="blog-card-title">
-              Современная методология разработки одухотворила всех причастных
-            </h3>
-            <p class="blog-card-text">
-              Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной
-              степени предоставлены...
-            </p>
+          <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image1.webp">
+              <source type="image/png" srcset="img/blog/blog-image1.png">
+              <img src="img/blog/blog-image1.png" alt="blog-image" class="blog-card-image">
+          </picture>
+          <h3 class="blog-card-title">
+            Современная методология разработки одухотворила всех причастных
+          </h3>
+          <p class="blog-card-text">
+            Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной
+            степени предоставлены...
+          </p>
         </a>
         <a href="blog_more.php" class="swiper-slide blog-card">
-            <img src="img/blog/blog-image2.png" alt="" class="blog-card-image">
-            <h3 class="blog-card-title">
-              Сложно сказать, почему жизнь прекрасна
-            </h3>
-            <p class="blog-card-text">
-              Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы.
-              Безусловно, высокотехнологичная...
-            </p>
+          <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image2.webp">
+              <source type="image/png" srcset="img/blog/blog-image2.png">
+              <img src="img/blog/blog-image2.png" alt="blog-image" class="blog-card-image">
+          </picture>
+          <h3 class="blog-card-title">
+            Сложно сказать, почему жизнь прекрасна
+          </h3>
+          <p class="blog-card-text">
+            Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы.
+            Безусловно, высокотехнологичная...
+          </p>
         </a>
       </div>
     </div>
-
 
     <div class="blog-slider-footer">
       <a href="./blog.php" class="button-link button-link-footer">Весь блог</a>

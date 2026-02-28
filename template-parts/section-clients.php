@@ -70,25 +70,69 @@
           </ul>
         </div>
         <div class="clients-logo-list clients-logo-list-about">
-          <a href="#" class="clients-logo-item"><img src="img/client.png" alt="Burger_King_logo" class="clients-logo clients-logo-about">
+          <a href="#" class="clients-logo-item">
+            <picture class="clients-logo clients-logo-about">
+              <source type="image/webp" srcset="img/client.webp">
+              <source type="image/png" srcset="img/client.png">
+              <img src="img/client.png" alt="Burger_King_logo" class="clients-logo clients-logo-about">
+            </picture>
           </a>
-          <a href="#" class="clients-logo-item"><img src="img/client.png" alt="Burger_King_logo" class="clients-logo clients-logo-about">
+          <a href="#" class="clients-logo-item">
+            <picture class="clients-logo clients-logo-about">
+              <source type="image/webp" srcset="img/client.webp">
+              <source type="image/png" srcset="img/client.png">
+              <img src="img/client.png" alt="Burger_King_logo" class="clients-logo clients-logo-about">
+            </picture>
           </a>
-          <a href="#" class="clients-logo-item"><img src="img/client.png" alt="Burger_King_logo" class="clients-logo clients-logo-about">
+          <a href="#" class="clients-logo-item">
+            <picture class="clients-logo clients-logo-about">
+              <source type="image/webp" srcset="img/client.webp">
+              <source type="image/png" srcset="img/client.png">
+              <img src="img/client.png" alt="Burger_King_logo" class="clients-logo clients-logo-about">
+            </picture>
           </a>
-          <a href="#" class="clients-logo-item"><img src="img/client.png" alt="Burger_King_logo" class="clients-logo clients-logo-about">
+          <a href="#" class="clients-logo-item">
+            <picture class="clients-logo clients-logo-about">
+              <source type="image/webp" srcset="img/client.webp">
+              <source type="image/png" srcset="img/client.png">
+              <img src="img/client.png" alt="Burger_King_logo" class="clients-logo clients-logo-about">
+            </picture>
           </a>
-          <a href="#" class="clients-logo-item"><img src="img/client.png" alt="Burger_King_logo" class="clients-logo clients-logo-about">
+          <a href="#" class="clients-logo-item">
+            <picture class="clients-logo clients-logo-about">
+              <source type="image/webp" srcset="img/client.webp">
+              <source type="image/png" srcset="img/client.png">
+              <img src="img/client.png" alt="Burger_King_logo" class="clients-logo clients-logo-about">
+            </picture>
           </a>
-          <a href="#" class="clients-logo-item"><img src="img/client.png" alt="Burger_King_logo" class="clients-logo clients-logo-about">
+          <a href="#" class="clients-logo-item">
+            <picture class="clients-logo clients-logo-about">
+              <source type="image/webp" srcset="img/client.webp">
+              <source type="image/png" srcset="img/client.png">
+              <img src="img/client.png" alt="Burger_King_logo" class="clients-logo clients-logo-about">
+            </picture>
           </a>
-          <a href="#" class="clients-logo-item"><img src="img/client.png" alt="Burger_King_logo" class="clients-logo clients-logo-about">
+          <a href="#" class="clients-logo-item">
+            <picture class="clients-logo clients-logo-about">
+              <source type="image/webp" srcset="img/client.webp">
+              <source type="image/png" srcset="img/client.png">
+              <img src="img/client.png" alt="Burger_King_logo" class="clients-logo clients-logo-about">
+            </picture>
           </a>
-          <a href="#" class="clients-logo-item"><img src="img/client.png" alt="Burger_King_logo" class="clients-logo clients-logo-about">
+          <a href="#" class="clients-logo-item">
+            <picture class="clients-logo clients-logo-about">
+              <source type="image/webp" srcset="img/client.webp">
+              <source type="image/png" srcset="img/client.png">
+              <img src="img/client.png" alt="Burger_King_logo" class="clients-logo clients-logo-about">
+            </picture>
           </a>
-          <a href="#" class="clients-logo-item"><img src="img/client.png" alt="Burger_King_logo" class="clients-logo clients-logo-about">
+          <a href="#" class="clients-logo-item">
+            <picture class="clients-logo clients-logo-about">
+              <source type="image/webp" srcset="img/client.webp">
+              <source type="image/png" srcset="img/client.png">
+              <img src="img/client.png" alt="Burger_King_logo" class="clients-logo clients-logo-about">
+            </picture>
           </a>
-
         </div>
       </div>
     </div>

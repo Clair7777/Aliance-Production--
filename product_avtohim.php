@@ -14,7 +14,12 @@ include_once('header-page.php');
     <div class="container">
       
       <div class="founder-content-wrapper product-avtohim-content-wrp">
-        <img src="img/product-avtohim.png" alt="product-avtohim" class="founder-photo-about product-avtohim-photo">
+        <picture class="founder-photo-about product-avtohim-photo">
+          <source type="image/webp" srcset="img/product-avtohim.webp">
+          <source type="image/png" srcset="img/product-avtohim.png">
+          <img src="img/product-avtohim.png" alt="product-avtohim" class="founder-photo-about product-avtohim-photo">
+        </picture>
+        
         <div class="product-avtohim-content">
           <div class="seporator"></div>
           <h2 class="section-title founder-title product-avtohim-title">Контрактное производство автомобильной химии</h2>
@@ -118,7 +123,12 @@ include_once('./template-parts/swiper-features.php')
       </div>
     </div>
   </div>
-  <img src="img/woman_look.png" alt="wooman_look" class="woman-look-photo">
+  <picture class="woman-look-photo">
+    <source type="image/webp" srcset="img/woman_look.webp">
+    <source type="image/png" srcset="img/woman_look.png">
+    <img src="img/woman_look.png" alt="wooman_look" class="woman-look-photo">
+  </picture>
+  
 </section>
 
 <section class="section section-type-avtohim">

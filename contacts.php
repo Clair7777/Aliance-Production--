@@ -34,7 +34,12 @@ $header_style = 'section-grey-about';?>
           </a>
         </div>
       </div>
-      <img src="img/map.png" alt="map" class="map-contacts-image">
+      <picture class="map-contacts-image">
+        <source type="image/webp" srcset="img/map.webp">
+        <source type="image/png" srcset="img/map.png">
+        <img src="img/map.png" alt="map" class="map-contacts-image">
+      </picture>
+      
   </div>
 </section>
 

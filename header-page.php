@@ -92,7 +92,7 @@
     </div>
   </div>
   <!-- /.mobile-info -->
-  <nav class="navbar navbar-light">
+  <nav class="navbar navbar-light" role="navigation">
     <a href="#" class="mobile-menu-toggle">
       <div class="mobile-menu-line"></div>
       <div class="mobile-menu-line"></div>
@@ -141,7 +141,7 @@
 
   </nav>
   <!-- /.navbar -->
-  <header class="header-about">
+  <header class="header-about" role="banner">
     <div class="<?= $header_style;?> <?= $header_about_own_product;?>">
     <!-- <div class="section <?= $header_style;?>"> -->
       <div class="container container-about <?= $container_avtohim_relative;?>">

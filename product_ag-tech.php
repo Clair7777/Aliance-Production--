@@ -11,7 +11,12 @@
 <section class="section experts">
     <div class="container">
       <div class="experts-content-wrapper avtohim-ag-tech-wrapper">
-        <img src="img/avtohim-AG-tech.png" alt="avtohim-ag-tech" class="avtohim-ag-tech-photo">
+        <picture class="avtohim-ag-tech-photo">
+          <source type="image/webp" srcset="img/avtohim-AG-tech.webp">
+          <source type="image/png" srcset="img/avtohim-AG-tech.png">
+          <img src="img/avtohim-AG-tech.png" alt="avtohim-ag-tech" class="avtohim-ag-tech-photo">
+        </picture>
+        
         <div class="experts-content avtohim-ag-tech-content">
           <div class="seporator"></div>
           <h2 class="section-title experts-title avtohim-ag-tech-title">Собственное производство автохимия AG-Tech</h2>
@@ -93,7 +98,12 @@ $arrow_prev = "arrow-prev-grey";
       </div>
     </div>
   </div>
-  <img src="img/distributor.png" alt="distributor" class="distributor-photo">
+  <picture class="distributor-photo">
+    <source type="image/webp" srcset="img/distributor.webp">
+    <source type="image/png" srcset="img/distributor.png">
+    <img src="img/distributor.png" alt="distributor" class="distributor-photo">
+  </picture>
+  
 </section>
 
 

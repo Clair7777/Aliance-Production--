@@ -1,5 +1,9 @@
 <section class="section founder <?= $section_founder_about;?>">
-    <img src="img/founder.jpg" alt="founder" class="founder-photo <?= $founder_photo_about;?>">
+    <picture>
+       <source type="image/webp" srcset="img/founder.webp">
+       <source type="image/jpg" srcset="img/founder.jpg">
+       <img src="img/founder.jpg" alt="founder" class="founder-photo <?= $founder_photo_about;?>">
+    </picture>
     <div class="container">
       <div class="founder-content-wrapper">
         <div class="founder-content <?= $founder_content_about;?>">
@@ -26,4 +30,4 @@
       </div>
       <!-- /.founder-content-wrapper -->
     </div>
-  </section>
+</section>

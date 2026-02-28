@@ -1,6 +1,11 @@
  <section class="cta">
     <div class="bg-grey section-cta <?= $for_section_avtohim;?> <?= $for_section_own_product;?> <?= $for_section_blog;?> <?= $for_section_blog_more;?>">
+    <picture class="cta-image" >
+      <source type="image/webp" srcset="img/cta.webp">
+      <source type="image/png" srcset="img/cta.png">
       <img src="img/cta.png" alt="call to action" class="cta-image">
+    </picture>  
+    
       <div class="cta-form-wrapper container">
         <form action="handler.php" method="POST" class="cta-form">
           <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
@@ -56,7 +61,7 @@
       </div>
     </div>
   </section>
-  <footer class="footer">
+  <footer class="footer" role="contentinfo">
     <div class="container">
       <div class="footer-top">
         <svg class="logo-svg footer-logo">
@@ -241,7 +246,12 @@
 
   <div class="modal" id="alert-modal">
     <div class="modal-dialog">
-      <img src="img/thanks.png" alt="thanks" class="image-thanks">
+      <picture class="image-thanks">
+        <source type="image/webp" srcset="img/thanks.webp">
+        <source type="image/png" srcset="img/thanks.png">
+        <img src="img/thanks.png" alt="thanks" class="image-thanks">
+      </picture>
+      
       <a href="#" class="modal-close-thanks" data-toggle="modal-thanks" data-target="#alert-modal">
         <svg class="close-icon" width="24" height="24">
           <use href="img/sprite.svg#close"></use>

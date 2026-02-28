@@ -8,6 +8,7 @@ html {
   font-family: "Bebas Neue";
   src: url("../fonts/BebasNeueBook.woff") format("woff");
   font-weight: normal;
+  font-display: swap;
   font-style: normal;
 }
 body {
@@ -406,7 +407,6 @@ h1 {
   min-height: 16.6875rem;
   list-style-type: none;
   padding-right: 1.875rem;
-  /* margin-top: -0.6875rem; */
 }
 .steps-num {
   font-family: "Bebas Neue";
@@ -698,10 +698,9 @@ h1 {
   z-index: -1;
 }
 .swiper-pagination {
-  bottom: 6.25rem; /* Позиция снизу */
+  bottom: 6.25rem;
   display: flex;
   justify-content: flex-end;
-  /* margin-left: 62.5rem; */
 }
 .swiper-pagination-bullet {
   width: 3.125rem;
@@ -787,7 +786,6 @@ h1 {
 .cta-form-footer {
   margin-top: 1.875rem;
   display: flex;
-  /* justify-content: center; */
 }
 .cta-form {
   max-width: 52.5rem;
@@ -859,7 +857,6 @@ h1 {
 }
 .input:hover ~ .input-group-label,
 .input:not(:placeholder-shown).input:not(:hover) ~ .input-group-label {
-  /* top: -8px; */
   left: 1.25rem;
   font-size: 10px;
   background-color: inherit;
@@ -1165,8 +1162,6 @@ h1 {
 .image-thanks {
   width: 100%;
 }
-
-/* header-about */
 .section-grey-about {
   background-color: #f0f2f5;
   margin-top: 5.8125rem;
@@ -1376,11 +1371,9 @@ h1 {
 }
 
 .production-title-bottom {
-  /* display: block; */
   display: flex;
 }
 .production-title-bottom-seporator {
-  /* display: block; */
   display: flex;
 }
 .production-title-top {
@@ -1421,13 +1414,9 @@ h1 {
   letter-spacing: 0.0688rem;
   color: #5c8ee6;
 }
-/* .section-contract-product {
-  margin-top: 101px;
-} */
 .product-avtohim-photo {
   width: 37.5rem;
   height: 46.875rem;
-  /* margin-left: 15rem; */
   margin-right: 7.5rem;
 }
 .contract-product-avtohim {
@@ -1436,7 +1425,6 @@ h1 {
 }
 .woman-look-photo {
   width: 43.7%;
-  /* height: 100%; */
   position: absolute;
   right: 0;
   top: 0;
@@ -1499,7 +1487,6 @@ h1 {
 }
 .type-avtohim-wrapper {
   width: 100%;
-  /* height: 15rem; */
 }
 .content-type-avtohim {
   margin-top: 0;
@@ -1896,9 +1883,6 @@ ol.menu-blog-more-two li {
   .explorer-text {
     margin-right: 0;
   }
-  .return-main {
-    /* width: 100%; */
-  }
   .production-content {
     width: 52.7%;
   }
@@ -2090,9 +2074,6 @@ ol.menu-blog-more-two li {
   .card {
     height: 46rem;
   }
-  /* .explorer-text {
-    min-height: 25rem;
-  } */
 }
 
 @media (max-width: 1250px) {
@@ -2788,7 +2769,6 @@ ol.menu-blog-more-two li {
   }
   .production-photo {
     width: 100%;
-    /* height: 100%; */
   }
   .explorer-wrapper {
     flex-wrap: wrap;
@@ -3632,7 +3612,7 @@ ol.menu-blog-more-two li {
     margin-bottom: 0;
   }
   .breadcrumbs li:not(:last-child)::after {
-    margin: 0 0.6875rem; /* Отступы до и после тире */
+    margin: 0 0.6875rem;
   }
   .header-title-avtohim {
     margin-top: 1.6rem;
@@ -3677,10 +3657,8 @@ ol.menu-blog-more-two li {
   }
   .breadcrumbs-two-strings {
     margin-top: 7.8125rem;
-    /* padding-bottom: 4.025rem; */
     padding-bottom: 3.825rem;
   }
-
   .modal-close-thanks {
     right: 2.625rem;
     height: 3.325rem;
@@ -4177,6 +4155,7 @@ ol.menu-blog-more-two li {
     font-size: 2.4rem;
   }
 }
+
 @media (max-width: 286px) {
   .header-title-grey {
     width: 100%;

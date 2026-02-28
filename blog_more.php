@@ -92,7 +92,7 @@
     </div>
   </div>
   <!-- /.mobile-info -->
-  <nav class="navbar navbar-light">
+  <nav class="navbar navbar-light" role="navigation">
     <a href="#" class="mobile-menu-toggle">
       <div class="mobile-menu-line"></div>
       <div class="mobile-menu-line"></div>
@@ -141,7 +141,7 @@
 
   </nav>
   <!-- /.navbar -->
-  <header class="header header-blog-image <?= $header_bloge_image_mt;?>">
+  <header role="banner" class="header header-blog-image <?= $header_bloge_image_mt;?>">
   <?php 
        $header_bloge_image_mt = "header-bloge-image-mt"?> 
     <div class="section section-blog-image">
@@ -232,7 +232,12 @@
             выполнять важные задания по разработке форм развития. Задача организации, в особенности же постоянный <a href="#" class="blog-more-text-link">количественный рост</a> и 
             сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании форм развития.
           </p>
-          <img src="img/blog-more-image.png" alt="product-avtohim" class="product-blog-more-photo">
+          <picture class="product-blog-more-photo">
+            <source type="image/webp" srcset="img/blog-more-image.webp">
+            <source type="image/png" srcset="img/blog-more-image.png">
+            <img src="img/blog-more-image.png" alt="product-avtohim" class="product-blog-more-photo">
+          </picture>
+          
             <div class="consultation">
             <h4 class="blog-more-title-three">Равным образом консультация с широким активом:</h4>
              <ul class="footer-menu-list menu-list-blog-more">
@@ -280,7 +285,11 @@
       <div class="swiper blog-slider">
         <div class="swiper-wrapper">
           <a href="blog_more.php" class="swiper-slide blog-card">
-            <img src="img/blog/blog-image1.png" alt="" class="blog-card-image">
+            <picture class="blog-card-image">
+              <source type="image/webp" srcset="images/blog/blog-image1.webp">
+              <source type="image/png" srcset="images/blog/blog-image1.png">
+              <img src="img/blog/blog-image1.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -290,7 +299,11 @@
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide blog-card">
-            <img src="img/blog/blog-image2.png" alt="" class="blog-card-image">
+            <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image2.webp">
+              <source type="image/png" srcset="img/blog/blog-image2.png">
+              <img src="img/blog/blog-image2.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -300,7 +313,11 @@
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide blog-card">
-            <img src="img/blog/blog-image1.png" alt="" class="blog-card-image">
+            <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image1.webp">
+              <source type="image/png" srcset="img/blog/blog-image1.png">
+              <img src="img/blog/blog-image1.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -310,7 +327,11 @@
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide blog-card">
-            <img src="img/blog/blog-image2.png" alt="" class="blog-card-image">
+            <picture class="blog-card-image">
+              <source type="image/webp" srcset="iimg/blog/blog-image2.webp">
+              <source type="image/png" srcset="img/blog/blog-image2.png">
+              <img src="img/blog/blog-image2.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>

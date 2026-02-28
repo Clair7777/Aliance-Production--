@@ -1,5 +1,5 @@
 
-<footer class="footer">
+<footer class="footer" role="contentinfo">
   <hr color="#ebebf0" class="footer-seporator footer-seporator-one">
     <div class="container">
       <div class="footer-top">
@@ -172,7 +172,12 @@
 
   <div class="modal" id="alert-modal">
     <div class="modal-dialog">
-      <img src="img/thanks.png" alt="thanks" class="image-thanks">
+      <picture class="image-thanks">
+        <source type="image/webp" srcset="img/thanks.webp">
+        <source type="image/png" srcset="img/thanks.png">
+        <img src="img/thanks.png" alt="thanks" class="image-thanks">
+      </picture>
+      
       <a href="#" class="modal-close-thanks" data-toggle="modal-thanks" data-target="#alert-modal">
         <svg class="close-icon" width="24" height="24">
           <use href="img/sprite.svg#close"></use>

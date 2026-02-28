@@ -9,7 +9,12 @@ $header_style = 'section-grey-about';?>
       <div class="swiper swiper-big-blog">
         <div class="swiper-wrapper swiper-wrapper-big-blog">
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image1.png" alt="" class="blog-card-image">
+            <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image1.webp">
+              <source type="image/png" srcset="img/blog/blog-image1.png">
+              <img src="img/blog/blog-image1.png" alt="blog-image" class="blog-card-image">
+            </picture>
+            
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -19,7 +24,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image2.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image2.webp">
+              <source type="image/png" srcset="img/blog/blog-image2.png">
+              <img src="img/blog/blog-image2.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -29,7 +38,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image1.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image1.webp">
+              <source type="image/png" srcset="img/blog/blog-image1.png">
+              <img src="img/blog/blog-image1.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -39,7 +52,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image2.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image2.webp">
+              <source type="image/png" srcset="img/blog/blog-image2.png">
+              <img src="img/blog/blog-image2.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -49,7 +66,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image1.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image1.webp">
+              <source type="image/png" srcset="img/blog/blog-image1.png">
+              <img src="img/blog/blog-image1.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -59,7 +80,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image2.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image2.webp">
+              <source type="image/png" srcset="img/blog/blog-image2.png">
+              <img src="img/blog/blog-image2.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -69,7 +94,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image1.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image1.webp">
+              <source type="image/png" srcset="img/blog/blog-image1.png">
+              <img src="img/blog/blog-image1.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -79,7 +108,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image2.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image2.webp">
+              <source type="image/png" srcset="img/blog/blog-image2.png">
+              <img src="img/blog/blog-image2.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -89,7 +122,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image1.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image1.webp">
+              <source type="image/png" srcset="img/blog/blog-image1.png">
+              <img src="img/blog/blog-image1.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -99,7 +136,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image2.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image2.webp">
+              <source type="image/png" srcset="img/blog/blog-image2.png">
+              <img src="img/blog/blog-image2.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -109,7 +150,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image1.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image1.webp">
+              <source type="image/png" srcset="img/blog/blog-image1.png">
+              <img src="img/blog/blog-image1.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -119,7 +164,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image2.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image2.webp">
+              <source type="image/png" srcset="img/blog/blog-image2.png">
+              <img src="img/blog/blog-image2.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -129,7 +178,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image1.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image1.webp">
+              <source type="image/png" srcset="img/blog/blog-image1.png">
+              <img src="img/blog/blog-image1.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -139,7 +192,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image2.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image2.webp">
+              <source type="image/png" srcset="img/blog/blog-image2.png">
+              <img src="img/blog/blog-image2.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -149,7 +206,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image1.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image1.webp">
+              <source type="image/png" srcset="img/blog/blog-image1.png">
+              <img src="img/blog/blog-image1.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -159,7 +220,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image2.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image2.webp">
+              <source type="image/png" srcset="img/blog/blog-image2.png">
+              <img src="img/blog/blog-image2.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -169,7 +234,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image1.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image1.webp">
+              <source type="image/png" srcset="img/blog/blog-image1.png">
+              <img src="img/blog/blog-image1.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -179,7 +248,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image2.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image2.webp">
+              <source type="image/png" srcset="img/blog/blog-image2.png">
+              <img src="img/blog/blog-image2.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -189,7 +262,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image1.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image1.webp">
+              <source type="image/png" srcset="img/blog/blog-image1.png">
+              <img src="img/blog/blog-image1.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -199,7 +276,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image2.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image2.webp">
+              <source type="image/png" srcset="img/blog/blog-image2.png">
+              <img src="img/blog/blog-image2.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -209,7 +290,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image1.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image1.webp">
+              <source type="image/png" srcset="img/blog/blog-image1.png">
+              <img src="img/blog/blog-image1.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -219,7 +304,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image2.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image2.webp">
+              <source type="image/png" srcset="img/blog/blog-image2.png">
+              <img src="img/blog/blog-image2.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -229,7 +318,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image1.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image1.webp">
+              <source type="image/png" srcset="img/blog/blog-image1.png">
+              <img src="img/blog/blog-image1.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -239,7 +332,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image2.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image2.webp">
+              <source type="image/png" srcset="img/blog/blog-image2.png">
+              <img src="img/blog/blog-image2.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -249,7 +346,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image1.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image1.webp">
+              <source type="image/png" srcset="img/blog/blog-image1.png">
+              <img src="img/blog/blog-image1.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -259,7 +360,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image2.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image2.webp">
+              <source type="image/png" srcset="img/blog/blog-image2.png">
+              <img src="img/blog/blog-image2.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -269,7 +374,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image1.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="images/flower1.webp">
+              <source type="image/jpeg" srcset="images/flower1.jpg">
+              <img src="img/blog/blog-image1.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -279,7 +388,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image2.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image2.webp">
+              <source type="image/png" srcset="img/blog/blog-image2.png">
+              <img src="img/blog/blog-image2.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -289,7 +402,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image1.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image1.webp">
+              <source type="image/png" srcset="img/blog/blog-image1.png">
+              <img src="img/blog/blog-image1.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -299,7 +416,11 @@ $header_style = 'section-grey-about';?>
             </p>
           </a>
           <a href="blog_more.php" class="swiper-slide swiper-slide-big-blog">
-            <img src="img/blog/blog-image2.png" alt="" class="blog-card-image">
+             <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-image2.webp">
+              <source type="image/png" srcset="img/blog/blog-image2.png">
+              <img src="img/blog/blog-image2.png" alt="blog-image" class="blog-card-image">
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>

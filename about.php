@@ -6,7 +6,11 @@ $header_style = 'section-grey-about';?>
 <section class="section experts">
     <div class="container">
       <div class="experts-content-wrapper">
-        <img src="img/experts.png" alt="experts" class="experts-photo">
+        <picture class="experts-photo">
+          <source type="image/webp" srcset="img/experts.webp">
+          <source type="image/png" srcset="img/experts.png">
+          <img src="img/experts.png" alt="experts" class="experts-photo">
+        </picture>
         <div class="experts-content">
           <div class="seporator"></div>
           <h2 class="section-title experts-title">мы - эксперты в области<br>производства химии</h2>
@@ -17,7 +21,6 @@ $header_style = 'section-grey-about';?>
             описаны максимально подробно. Значимость этих проблем настолько очевидна, что перспективное планирование играет важную роль в 
             формировании системы массового участия.
           </p>
-          
         </div>
       </div>
     </div>
@@ -94,7 +97,12 @@ $swiper_container = "swiper-container";
             </li>
           </ul>
         </div>
-      <img src="img/prodaction.png" alt="production" class="production-photo">
+      <picture>
+        <source type="image/webp" srcset="img/prodaction.webp">
+        <source type="image/png" srcset="img/prodaction.png">
+        <img src="img/prodaction.png" alt="production" class="production-photo">
+      </picture>  
+      
       </div>
     </div>
   </section>
@@ -181,8 +189,6 @@ $swiper_container = "swiper-container";
     </div>
   </div>
 </section> -->
-
-
 
 
 

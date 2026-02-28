@@ -18,7 +18,11 @@
               независимые государства набирают популярность среди определенных слоев населения, а значит, должны быть указаны как претенденты
               на роль ключевых факторов. Лишь акционеры крупнейших компаний могут быть призваны к ответу.
             </p>
-            <img src="img/blog/blog-image2.png" alt="" class="blog-about-image">
+            <picture class="blog-about-image">
+              <source type="image/webp" srcset="img/blog/blog-image2.webp">
+              <source type="image/png" srcset="img/blog/blog-image2.png">
+              <img src="img/blog/blog-image2.png" alt="blog-image" class="blog-about-image">
+            </picture>
           </div>
           
           <div class="swiper-slide card-about">
@@ -28,7 +32,11 @@
               интересный эксперимент проверки как самодостаточных, так и внешне зависимых концептуальных решений. Предварительные выводы 
               неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление однозначно фиксирует необходимость стандартных подходов.
             </p>
-            <img src="img/blog/blog-image1.png" alt="" class="blog-about-image">
+            <picture class="blog-about-image">
+              <source type="image/webp" srcset="img/blog/blog-image1.webp">
+              <source type="image/png" srcset="img/blog/blog-image1.png">
+              <img src="img/blog/blog-image1.png" alt="blog-image" class="blog-about-image">
+            </picture>
           </div>
 
           <div class="swiper-slide card-about">
@@ -38,7 +46,11 @@
               независимые государства набирают популярность среди определенных слоев населения, а значит, должны быть указаны как претенденты
               на роль ключевых факторов. Лишь акционеры крупнейших компаний могут быть призваны к ответу.
             </p>
-            <img src="img/blog/blog-image2.png" alt="" class="blog-about-image">
+            <picture class="blog-about-image">
+              <source type="image/webp" srcset="img/blog/blog-image2.webp">
+              <source type="image/png" srcset="img/blog/blog-image2.png">
+              <img src="img/blog/blog-image2.png" alt="blog-image" class="blog-about-image">
+            </picture>
           </div>
 
           <div class="swiper-slide card-about">
@@ -48,7 +60,11 @@
               интересный эксперимент проверки как самодостаточных, так и внешне зависимых концептуальных решений. Предварительные выводы 
               неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление однозначно фиксирует необходимость стандартных подходов.
             </p>
-            <img src="img/blog/blog-image1.png" alt="" class="blog-about-image">
+            <picture class="blog-about-image">
+              <source type="image/webp" srcset="img/blog/blog-image1.webp">
+              <source type="image/png" srcset="img/blog/blog-image1.png">
+              <img src="img/blog/blog-image1.png" alt="blog-image" class="blog-about-image">
+            </picture>
           </div>
         </div>
       </div>
