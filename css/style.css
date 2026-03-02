@@ -79,6 +79,13 @@ h1 {
   position: relative;
   width: 100%;
 }
+
+@supports (background-image: url("../img/header-bg.webp")) {
+  .header-image {
+    background-image: url("../img/header-bg.webp");
+  }
+}
+
 .header-image::before {
   content: "";
   position: absolute;

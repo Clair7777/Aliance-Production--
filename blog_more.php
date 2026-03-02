@@ -142,8 +142,7 @@
   </nav>
   <!-- /.navbar -->
   <header role="banner" class="header header-blog-image <?= $header_bloge_image_mt;?>">
-  <?php 
-       $header_bloge_image_mt = "header-bloge-image-mt"?> 
+    
     <div class="section section-blog-image">
       <div class="container">
         <div class="header-content header-blog-content">
@@ -286,8 +285,8 @@
         <div class="swiper-wrapper">
           <a href="blog_more.php" class="swiper-slide blog-card">
             <picture class="blog-card-image">
-              <source type="image/webp" srcset="images/blog/blog-image1.webp">
-              <source type="image/png" srcset="images/blog/blog-image1.png">
+              <source type="image/webp" srcset="img/blog/blog-image1.webp">
+              <source type="image/png" srcset="img/blog/blog-image1.png">
               <img src="img/blog/blog-image1.png" alt="blog-image" class="blog-card-image">
             </picture>
             <h3 class="blog-card-title">
@@ -298,6 +297,7 @@
               степени предоставлены...
             </p>
           </a>
+
           <a href="blog_more.php" class="swiper-slide blog-card">
             <picture class="blog-card-image">
               <source type="image/webp" srcset="img/blog/blog-image2.webp">
@@ -312,6 +312,7 @@
               Безусловно, высокотехнологичная...
             </p>
           </a>
+
           <a href="blog_more.php" class="swiper-slide blog-card">
             <picture class="blog-card-image">
               <source type="image/webp" srcset="img/blog/blog-image1.webp">
@@ -326,9 +327,10 @@
               степени предоставлены...
             </p>
           </a>
+
           <a href="blog_more.php" class="swiper-slide blog-card">
             <picture class="blog-card-image">
-              <source type="image/webp" srcset="iimg/blog/blog-image2.webp">
+              <source type="image/webp" srcset="img/blog/blog-image2.webp">
               <source type="image/png" srcset="img/blog/blog-image2.png">
               <img src="img/blog/blog-image2.png" alt="blog-image" class="blog-card-image">
             </picture>
