@@ -202,4 +202,3 @@ include_once('./template-parts/section-clients.php')
 <?php 
   $footer_seporator_for_about = "footer-seporator-for-about";
 include_once('footer.php')?>
-

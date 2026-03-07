@@ -22,9 +22,9 @@
                name="username"
                autocomplete="name"
                placeholder=" " 
-               maxlenght="100"
+               maxlength="100"
                required
-              />
+               >
               <label class="input-group-label" for="user-name">Имя</label>
             </div>
             <!-- /.input-group -->
@@ -34,7 +34,7 @@
                 type="tel" 
                 id="user-phone" 
                 name="userphone"
-                maxlenght="30"
+                maxlength="30"
                 pattern="^\+\d \(\d{3}\) \d{3}-\d{2}-\d{2}$"
                 required placeholder="+_ (___) ___-__-__" 
                >
@@ -61,7 +61,7 @@
       </div>
     </div>
   </section>
-  <footer class="footer" role="contentinfo">
+  <footer class="footer">
     <div class="container">
       <div class="footer-top">
         <svg class="logo-svg footer-logo">
@@ -97,7 +97,7 @@
         </div>
       </div>
     </div>
-    <hr color="#ebebf0" class="footer-seporator footer-seporator-one <?= $footer_seporator_for_about;?>" />
+    <hr class="footer-seporator footer-seporator-one <?= $footer_seporator_for_about;?>">
     <div class="container">
       <div class="footer-bottom footer-bottom-about">
         <div class="footer-menu-wrapper">
@@ -155,7 +155,7 @@
         </div>
       </div>
     </div>
-    <hr color="#ebebf0" class="footer-seporator" />
+    <hr class="footer-seporator">
     <div class="container">
       <div class="footer-wrapper footer-wrapper-production">
         <div class="footer-legal">
@@ -186,26 +186,24 @@
       <p class="modal-text">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие
         вопросы и поможем даже в самых сложных случаях!
       </p>
-      <form action="handler.php" method="POST"class="modal-form">
+      <form action="handler.php" method="POST" class="modal-form">
         <div class="input-group-wrapper input-group-vertical">
           <div class="input-group modal-input-group">
-            <input id="modal-user-name" type="text" class="input modal-input" placeholder=" " name="username"/>
+            <input id="modal-user-name" type="text" class="input modal-input" placeholder=" " name="username" autocomplete="username">
             <label class="input-group-label modal-input-label" for="modal-user-name">Имя</label>
           </div>
           <!-- /.input-group -->
           <div class="input-group modal-input-group">
-            <!-- <input id="modal-user-phone" type="tel" class="input modal-input" name="userphone" placeholder=" ">
-            <label class="input-group-label modal-input-label" for="modal-user-phone">Номер телефона</label> -->
              <input 
                 class="input input-phone-number" 
                 type="tel" 
-                id="user-phone" 
+                id="user-phone-modal" 
                 name="userphone"
-                maxlenght="30"
+                maxlength="30"
                 pattern="^\+\d \(\d{3}\) \d{3}-\d{2}-\d{2}$"
                 required placeholder="+_ (___) ___-__-__" 
                >
-              <label class="input-group-label-phone" for="user-phone">Номер телефона</label>
+              <label class="input-group-label-phone" for="user-phone-modal">Номер телефона</label>
           </div>
           <!-- /.input-group -->
         </div>
@@ -275,6 +273,7 @@
   <script src="js/just-validate.production.min.js"></script>
   <script src="js/imask.js"></script>
   <script src="js/main.js"></script>
+  
 </body>
 
 </html>

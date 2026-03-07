@@ -50,7 +50,7 @@ include_once('header-page.php');
     $arrow_next = "arrow-next-grey";
     $arrow_prev = "arrow-prev-grey";
     $swiper_container = "swiper-container";
-include_once('./template-parts/swiper-features.php')
+ include_once('./template-parts/swiper-features.php');
 ?>
 
 <section class="section section-production-avtohim">
